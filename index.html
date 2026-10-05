@@ -1,0 +1,1041 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Antonio’s Italian Eatery | Pizza, pasta and subs in North Augusta, SC</title>
+<meta name="description" content="New York–style pizza, pasta, subs, calzones and homemade pies at 336 Georgia Avenue, North Augusta, SC. See the full menu, hours and catering.">
+<meta name="theme-color" content="#0C1A13">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&amp;family=Libre+Franklin:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-padding-top:84px;overflow-x:clip}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden;overflow-x:clip;font-kerning:normal}
+img,svg,canvas{display:block;max-width:100%}
+a{color:inherit;text-underline-offset:.2em;text-decoration-thickness:1px}
+h1,h2,h3,h4,p,figure,blockquote,dl,dd{margin:0}
+ul,ol{margin:0;padding:0}
+[role=list]{list-style:none}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+[hidden]{display:none!important}
+:root{--gutter:clamp(20px,5vw,64px)}
+:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+.sr-only{position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
+.skip{position:fixed;z-index:200;left:16px;top:16px;transform:translateY(-180%);padding:12px 18px;border-radius:999px;background:var(--night-accent);color:var(--night-accent-ink);font-weight:600;text-decoration:none;transition:transform .2s}
+.skip:focus{transform:none}
+.wrap{width:100%;max-width:1280px;margin-inline:auto;padding-inline:var(--gutter)}
+
+.night{background:var(--night);color:var(--night-ink);--ink:var(--night-ink);--ink-2:var(--night-muted);--line:var(--night-line);--line-strong:var(--night-line-strong);--accent:var(--night-accent);--accent-ink:var(--night-accent-ink);--accent-hover:var(--night-accent-hover);--bg-2:var(--night-2);--focus:var(--night-accent)}
+
+.h2{font-family:var(--font-display);font-weight:var(--h-weight,500);font-size:var(--h2-size,clamp(2.4rem,5vw,4.25rem));line-height:var(--h-leading,1.04);letter-spacing:var(--h-tracking,-.01em);text-wrap:balance}
+.h3{font-family:var(--font-h3,var(--font-display));font-weight:var(--h3-weight,500);font-size:clamp(1.5rem,2.3vw,2rem);line-height:1.15;text-wrap:balance}
+.lede{margin-top:1.1rem;font-size:clamp(1.08rem,1.5vw,1.25rem);line-height:1.55;color:var(--ink-2);max-width:40rem}
+.prose{max-width:36rem;font-size:1.1rem;line-height:1.72}
+.prose p+p{margin-top:1em}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:48px;padding:.75em 1.45em;border-radius:var(--radius-btn,999px);border:1px solid transparent;font-weight:600;font-size:1rem;line-height:1.1;text-decoration:none;white-space:nowrap;transition:background-color .2s,color .2s,border-color .2s}
+.btn--solid{background:var(--accent);color:var(--accent-ink)}
+.btn--solid:hover{background:var(--accent-hover)}
+.btn--ghost{background:transparent;border-color:var(--line-strong);color:var(--ink)}
+.btn--ghost:hover{border-color:var(--ink)}
+.link{font-weight:600;color:var(--ink);text-decoration:underline;text-decoration-color:var(--line-strong)}
+.link:hover{text-decoration-color:currentColor}
+
+/* nav */
+.nav{position:fixed;inset:0 0 auto 0;z-index:60;color:var(--night-ink);transition:background-color .3s,box-shadow .3s}
+.nav.is-scrolled,body.nav-open .nav{background:color-mix(in srgb,var(--night) 86%,transparent);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);box-shadow:0 1px 0 var(--night-line)}
+.nav__inner{display:flex;align-items:center;gap:28px;height:72px;max-width:1440px}
+.brand{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--font-brand,var(--font-display));font-size:var(--brand-size,1.25rem);line-height:1;white-space:nowrap}
+.brand svg{width:30px;height:30px;flex:none;color:var(--night-accent)}
+.nav__links{display:flex;align-items:center;gap:30px;margin-left:auto}
+.nav__links a{display:block;padding:10px 0;text-decoration:none;font-size:.97rem;color:var(--night-muted);transition:color .2s}
+.nav__links a:hover{color:var(--night-ink)}
+.nav__cta-item{display:none}
+.nav .nav__cta{min-height:42px;padding:.6em 1.2em;background:var(--night-accent);color:var(--night-accent-ink)}
+.nav .nav__cta:hover{background:var(--night-accent-hover)}
+.nav__toggle{display:none;margin-left:auto;width:46px;height:46px;border:1px solid var(--night-line-strong);border-radius:999px;background:transparent;position:relative}
+.nav__toggle span{position:absolute;left:14px;right:14px;height:1.5px;background:var(--night-ink);transition:transform .25s}
+.nav__toggle span:first-child{top:18px}
+.nav__toggle span:last-child{top:26px}
+body.nav-open .nav__toggle span:first-child{transform:translateY(4px) rotate(45deg)}
+body.nav-open .nav__toggle span:last-child{transform:translateY(-4px) rotate(-45deg)}
+@media (max-width:880px){
+  .nav__toggle{display:block}
+  .nav .nav__cta{display:none}
+  .nav__links{position:fixed;inset:72px 0 auto 0;flex-direction:column;align-items:stretch;gap:0;padding:8px var(--gutter) 28px;background:var(--night);border-bottom:1px solid var(--night-line);opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity .25s,transform .25s,visibility 0s linear .25s}
+  body.nav-open .nav__links{opacity:1;visibility:visible;transform:none;transition-delay:0s}
+  .nav__links a{padding:15px 0;font-size:1.2rem;color:var(--night-ink);border-bottom:1px solid var(--night-line)}
+  .nav__cta-item{display:block}
+  .nav__cta-item a{color:var(--night-accent);border-bottom:0}
+}
+
+/* hero */
+.hero{position:relative;min-height:100vh;min-height:100svh;overflow:hidden;isolation:isolate}
+.hero__actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.hero__status{margin-top:18px;font-size:.97rem;color:var(--night-muted);min-height:1.6em}
+.cue{display:inline-flex;flex-direction:column;align-items:center;gap:10px;font-size:.88rem;color:var(--night-muted);text-decoration:none}
+.cue::after{content:"";width:1px;height:34px;background:linear-gradient(var(--night-muted),transparent);transform-origin:top;animation:cue 2.4s ease-in-out infinite}
+@keyframes cue{0%{transform:scaleY(0);opacity:1}60%{transform:scaleY(1);opacity:1}100%{transform:scaleY(1);opacity:0}}
+
+/* story */
+.story{position:relative;height:calc(var(--chapters,6) * 90vh + 100vh);height:calc(var(--chapters,6) * 0.9 * var(--vpx,100svh) + var(--vpx,100svh))}
+.story__sticky{position:sticky;top:0;height:100vh;height:100svh;height:100dvh;overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);align-items:center;column-gap:clamp(24px,4vw,72px);padding:72px calc(var(--gutter) + 40px) 0 var(--gutter);max-width:1440px;margin-inline:auto}
+.story__text{position:relative;height:min(480px,62vh)}
+.chapter{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;opacity:0;visibility:hidden;transform:translateY(16px);transition:opacity .45s ease,transform .6s cubic-bezier(.2,.7,.2,1),visibility 0s linear .45s}
+.chapter.is-active{opacity:1;visibility:visible;transform:none;transition-delay:0s}
+.chapter__num{display:flex;align-items:center;gap:14px;margin-bottom:18px;font-size:.95rem;color:var(--night-muted)}
+.chapter__num b{font-family:var(--font-display);font-weight:500;color:var(--night-accent);font-size:1.05rem}
+.chapter__num b::after{content:"";display:inline-block;width:36px;height:1px;margin-left:14px;vertical-align:middle;background:var(--night-line-strong)}
+.chapter__title{font-family:var(--font-display);font-weight:var(--h-weight,500);font-size:clamp(2.1rem,4.3vw,3.9rem);line-height:1.03;letter-spacing:var(--h-tracking,-.01em);text-wrap:balance}
+.chapter__body{margin-top:18px;max-width:31rem;font-size:clamp(1.02rem,1.3vw,1.15rem);line-height:1.6;color:var(--night-muted)}
+.chapter__meter{display:flex;align-items:baseline;gap:10px;margin-top:22px;color:var(--night-muted);font-size:.95rem}
+.chapter__meter b{min-width:2ch;font-family:var(--font-display);font-weight:500;font-size:2.2rem;line-height:1;color:var(--night-ink);font-variant-numeric:tabular-nums}
+.chapter__actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.story__art{justify-self:center;width:min(100%,76vh,700px);aspect-ratio:1/1}
+.story__art svg{width:100%;height:100%;overflow:visible}
+.story__rail{position:absolute;right:var(--gutter);top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:12px;list-style:none;font-family:var(--font-display);font-size:.9rem;text-align:right}
+.story__rail li{color:var(--night-muted);opacity:.45;transition:opacity .3s,color .3s}
+.story__rail li.is-active{opacity:1;color:var(--night-accent)}
+.story__bar{position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--night-line)}
+.story__bar span{display:block;height:100%;background:var(--night-accent);transform-origin:left;transform:scaleX(0)}
+.sparkle{transform-box:fill-box;transform-origin:center;animation:twinkle 1.8s ease-in-out infinite}
+@keyframes twinkle{0%,100%{transform:scale(.5);opacity:.4}50%{transform:scale(1.15);opacity:1}}
+.st-flame{transform-box:fill-box;transform-origin:50% 100%;animation:flick var(--dur,1.4s) ease-in-out infinite alternate;animation-delay:var(--del,0s)}
+@keyframes flick{0%{transform:scale(1,1) skewX(0)}50%{transform:scale(.9,1.14) skewX(4deg)}100%{transform:scale(1.05,.88) skewX(-4deg)}}
+.steam{stroke-dasharray:46 110;animation:steam 3s linear infinite}
+@keyframes steam{from{stroke-dashoffset:156}to{stroke-dashoffset:0}}
+@media (max-width:880px){
+  .story__sticky{grid-template-columns:1fr;grid-template-rows:minmax(0,1fr) auto;padding:84px var(--gutter) 30px}
+  .story__art{grid-row:1;align-self:center;width:min(88vw,46vh)}
+  .story__text{grid-row:2;height:clamp(250px,38vh,320px)}
+  .chapter{justify-content:flex-start}
+  .chapter__num{margin-bottom:10px}
+  .chapter__title{font-size:clamp(1.75rem,7.2vw,2.5rem)}
+  .chapter__body{margin-top:10px;font-size:1rem}
+  .chapter__meter{margin-top:10px}
+  .chapter__meter b{font-size:1.6rem}
+  .chapter__actions{margin-top:16px}
+  .story__rail{top:88px;right:var(--gutter);transform:none;flex-direction:row;gap:12px}
+}
+
+/* sections */
+.section{position:relative;padding-block:clamp(88px,11vw,160px)}
+.section--tight{padding-block:clamp(64px,8vw,112px)}
+.section__head{max-width:48rem;margin-bottom:clamp(40px,5.5vw,72px)}
+.split{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(40px,7vw,120px);align-items:start}
+@media (max-width:880px){.split{grid-template-columns:1fr}}
+
+.facts{display:grid;grid-template-columns:auto 1fr;border-top:1px solid var(--line-strong)}
+.facts dt,.facts dd{padding:15px 0;border-bottom:1px solid var(--line)}
+.facts dt{padding-right:24px;color:var(--ink-2);font-size:.97rem}
+.facts dd{text-align:right;font-weight:600}
+
+/* menu */
+.menu__tools{display:none;flex-direction:column;gap:18px;margin-bottom:34px}
+.js .menu__tools{display:flex}
+.menu__search{position:relative;max-width:420px}
+.menu__search svg{position:absolute;left:16px;top:50%;width:18px;height:18px;transform:translateY(-50%);color:var(--ink-2);pointer-events:none}
+.menu__search input{width:100%;min-height:50px;padding:.7em 1em .7em 2.9em;border:1px solid var(--line-strong);border-radius:999px;background:var(--bg-2);color:var(--ink)}
+.menu__search input::placeholder{color:var(--ink-2)}
+.tabs{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin-inline:calc(var(--gutter) * -1);padding:2px var(--gutter) 6px}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;min-height:44px;padding:.5em 1.1em;border:1px solid var(--line-strong);border-radius:999px;background:transparent;font-weight:600;font-size:.95rem;white-space:nowrap;transition:background-color .2s,color .2s,border-color .2s}
+.tab:hover{border-color:var(--ink)}
+.tab[aria-selected=true]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.is-searching .tabs{opacity:.4;pointer-events:none}
+.menu__panel-title{font-family:var(--font-display);font-weight:var(--h-weight,500);font-size:1.1rem;color:var(--ink-2);margin:0 0 18px}
+.has-tabs .menu__panel-title{display:none}
+.has-tabs.is-searching .menu__panel-title{display:block}
+.has-tabs.is-searching .menu__panel+.menu__panel{margin-top:56px}
+.menu__panel:focus-visible{outline-offset:8px}
+.menu__group+.menu__group{margin-top:clamp(44px,5vw,68px)}
+.menu__group-title{font-family:var(--font-group,var(--font-display));font-weight:var(--group-weight,500);font-size:var(--group-size,clamp(1.5rem,2.2vw,1.95rem));line-height:1.15;margin-bottom:6px}
+.menu__group-intro{max-width:44rem;color:var(--ink-2);margin-bottom:12px}
+.menu__note{max-width:44rem;margin-top:14px;font-size:.95rem;color:var(--ink-2)}
+.dishes{list-style:none}
+.dish{padding:15px 0;border-bottom:1px solid var(--line)}
+.dish__row{display:flex;align-items:baseline;gap:12px}
+.dish__name{font-family:var(--font-dish,var(--font-body));font-weight:var(--dish-weight,600);font-size:var(--dish-size,1.1rem);line-height:1.3;margin:0}
+.dish__tag{display:inline-block;margin-left:10px;padding:.15em .6em;border:1px solid currentColor;border-radius:999px;font-family:var(--font-body);font-size:.72rem;font-weight:600;line-height:1.4;vertical-align:.25em;color:var(--tag,var(--accent))}
+.dish__leader{flex:1 1 16px;min-width:16px;border-bottom:1px dotted var(--line-strong);transform:translateY(-.3em)}
+.dish__prices{display:grid;grid-auto-flow:column;grid-auto-columns:auto;min-width:3rem;flex:none;text-align:right;font-family:var(--font-price,var(--font-body));font-weight:600;font-variant-numeric:tabular-nums lining-nums}
+.menu__group--cols .dish__prices{grid-auto-columns:var(--price-col,5.4rem)}
+.price--span{grid-column:span var(--span,2)}
+.price--na{color:var(--ink-2);font-weight:400}
+.dish__desc{max-width:44rem;margin-top:5px;padding-right:2rem;color:var(--ink-2);font-size:.97rem;line-height:1.55}
+.dish__row--head{padding-bottom:8px;border-bottom:1px solid var(--line-strong);font-size:.85rem;color:var(--ink-2)}
+.dish__row--head .dish__leader{border:0}
+.dish__row--head .dish__prices{font-weight:600;font-family:var(--font-body)}
+.dish.is-hidden,.menu__group.is-hidden,.menu__panel.is-hidden{display:none}
+.menu__empty{padding:28px 0;color:var(--ink-2)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin-top:10px}
+.chips li{padding:.35em .85em;border:1px solid var(--line-strong);border-radius:999px;font-size:.95rem}
+.menu__sub{margin-top:20px;font-weight:600}
+@media (max-width:600px){
+  :root{--price-col:4.5rem}
+  .dish__leader{display:none}
+  .dish__row{justify-content:space-between}
+  .dish__desc{padding-right:0}
+}
+
+/* forms */
+.form{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px 16px}
+.field{display:grid;gap:7px;grid-column:span 3;align-content:start}
+.field--third{grid-column:span 2}
+.field--full{grid-column:1/-1}
+.field label{font-weight:600;font-size:.95rem}
+.field input,.field select{width:100%;min-height:52px;padding:.7em .9em;border:1px solid var(--line-strong);border-radius:var(--radius-field,10px);background:var(--bg-2);color:var(--ink)}
+.field input[aria-invalid=true]{border-color:var(--danger);box-shadow:0 0 0 1px var(--danger)}
+.field__error{min-height:1.35em;font-size:.9rem;line-height:1.35;color:var(--danger)}
+@media (max-width:620px){.field,.field--third{grid-column:1/-1}}
+
+/* visit */
+.visit{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(40px,6vw,96px);align-items:start}
+.visit__block+.visit__block{margin-top:30px}
+.visit__label{margin-bottom:6px;color:var(--ink-2);font-size:.95rem}
+.visit__big{font-size:1.2rem;font-weight:600;line-height:1.45}
+.hours{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.hours th,.hours td{padding:10px 0;border-bottom:1px solid var(--line);text-align:left;font-weight:400}
+.hours td{text-align:right}
+.hours tr.is-today th,.hours tr.is-today td{font-weight:700;color:var(--ink)}
+.hours tr.is-today th::after{content:"Today";margin-left:10px;padding:.1em .55em;border-radius:999px;background:var(--accent);color:var(--accent-ink);font-size:.72rem;font-weight:600;vertical-align:.15em}
+.map{width:100%;height:auto;border-radius:var(--radius-card,14px);border:1px solid var(--line)}
+.map-wrap figcaption{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 20px;margin-top:12px;font-size:.93rem;color:var(--ink-2)}
+.m-land{fill:var(--map-land)}
+.m-water{fill:var(--map-water)}
+.m-block{fill:var(--map-block)}
+.m-road{fill:none;stroke:var(--map-road);stroke-linecap:round}
+.m-label{fill:var(--map-label);font-family:var(--font-body);font-size:13px;font-weight:600}
+.m-label--soft{font-weight:400;font-style:italic}
+.m-pin-halo{fill:var(--pin,var(--accent));opacity:.22}
+.m-pin-dot{fill:var(--pin,var(--accent));stroke:var(--bg-2);stroke-width:3}
+.m-pin-label{fill:var(--ink);font-family:var(--font-body);font-size:15px;font-weight:700}
+@media (max-width:880px){.visit{grid-template-columns:1fr}}
+
+/* footer */
+.footer{padding-block:clamp(72px,9vw,120px) 36px}
+.footer__grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr) minmax(0,.8fr);gap:clamp(36px,5vw,72px)}
+.footer__brand{font-family:var(--font-brand,var(--font-display));font-size:clamp(2rem,3.4vw,2.8rem);line-height:1}
+.footer__lead{margin-top:14px;max-width:24rem;color:var(--night-muted)}
+.footer h2{font-size:1rem;font-weight:600;margin-bottom:12px;font-family:var(--font-body)}
+.footer__links{display:grid;gap:8px;list-style:none}
+.footer__links a{color:var(--night-muted);text-decoration:none}
+.footer__links a:hover{color:var(--night-ink);text-decoration:underline}
+.footer__base{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px;margin-top:clamp(56px,7vw,96px);padding-top:22px;border-top:1px solid var(--night-line);font-size:.9rem;color:var(--night-muted)}
+.signup{display:flex;gap:10px;margin-top:6px}
+.signup input{flex:1;min-width:0;min-height:50px;padding:.7em 1em;border:1px solid var(--night-line-strong);border-radius:999px;background:transparent;color:var(--night-ink)}
+.signup input::placeholder{color:var(--night-muted)}
+.signup__msg{min-height:1.5em;margin-top:10px;font-size:.93rem;color:var(--night-muted)}
+.signup__msg.is-error{color:#FF9C8F}
+@media (max-width:880px){.footer__grid{grid-template-columns:1fr}}
+@media (max-width:420px){.signup{flex-direction:column}}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+  .cue::after,.sparkle,.st-flame,.steam{animation:none!important}
+}
+
+
+:root{
+  --font-display:"Alfa Slab One","Rockwell","Roboto Slab",Georgia,serif;
+  --font-body:"Libre Franklin","Franklin Gothic Medium","Helvetica Neue",Arial,sans-serif;
+  --font-h3:var(--font-body);--h3-weight:800;--font-group:var(--font-body);--group-weight:800;--group-size:clamp(1.35rem,2vw,1.7rem);
+  --dish-weight:700;--dish-size:1.08rem;--brand-size:1.35rem;
+  --h2-size:clamp(2.3rem,4.8vw,4rem);--h-weight:400;--h-tracking:0;--h-leading:1.06;--radius-card:14px;
+  color-scheme:light;
+  --bg:#FBF8F1;--bg-2:#FFFFFF;--ink:#16241C;--ink-2:#56625A;--line:rgba(22,36,28,.12);--line-strong:rgba(22,36,28,.3);
+  --accent:#C7361F;--accent-ink:#FFFFFF;--accent-hover:#A92C18;--green:#1F5A40;--tag:#C7361F;--focus:#1F5A40;--danger:#B3261E;
+  --night:#0C1A13;--night-2:#13251B;--night-ink:#F6EEDC;--night-muted:#A9B5AC;--night-line:rgba(246,238,220,.14);
+  --night-line-strong:rgba(246,238,220,.3);--night-accent:#FF6A4D;--night-accent-ink:#1A0A06;--night-accent-hover:#FF8670;
+  --map-land:#EEE9DD;--map-block:#E2DBCB;--map-road:#FFFFFF;--map-water:#B7D3CE;--map-label:#56625A;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#0C1A13;--bg-2:#13251B;--ink:#F6EEDC;--ink-2:#A9B5AC;--line:rgba(246,238,220,.12);--line-strong:rgba(246,238,220,.28);--accent:#FF6A4D;--accent-ink:#1A0A06;--accent-hover:#FF8670;--green:#7CC39B;--tag:#FF6A4D;--focus:#7CC39B;--danger:#FF9C8F;--map-land:#13251B;--map-block:#1A2F23;--map-road:#2C4336;--map-water:#0F3A3A;--map-label:#A9B5AC}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#0C1A13;--bg-2:#13251B;--ink:#F6EEDC;--ink-2:#A9B5AC;--line:rgba(246,238,220,.12);--line-strong:rgba(246,238,220,.28);--accent:#FF6A4D;--accent-ink:#1A0A06;--accent-hover:#FF8670;--green:#7CC39B;--tag:#FF6A4D;--focus:#7CC39B;--danger:#FF9C8F;--map-land:#13251B;--map-block:#1A2F23;--map-road:#2C4336;--map-water:#0F3A3A;--map-label:#A9B5AC}
+
+.hero--sign{display:flex;flex-direction:column;background:radial-gradient(55% 45% at 50% 40%,rgba(255,168,90,.16),transparent 72%),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='44'%3E%3Cpath d='M0 .5H88M0 22.5H88M.5 0V22M44.5 22V44' stroke='%23F6EEDC' stroke-opacity='.034' fill='none'/%3E%3C/svg%3E"),var(--night)}
+.hero--sign .hero__inner{position:relative;z-index:2;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:124px var(--gutter) 132px}
+.sign{position:relative;padding:clamp(30px,5vw,58px) clamp(30px,6.5vw,84px) clamp(26px,4.2vw,48px);border-radius:22px;background:linear-gradient(180deg,#17392A,#0F281C);box-shadow:inset 0 0 0 1px rgba(246,238,220,.09),0 50px 100px -40px rgba(0,0,0,.8)}
+.sign__title{font-family:var(--font-display);font-weight:400;font-size:clamp(3.1rem,11.5vw,9rem);line-height:.92;letter-spacing:.01em;color:#FFF2D6;text-shadow:0 3px 0 #8E2E17,0 0 26px rgba(255,186,104,.35)}
+.sign__title span{display:block;margin-top:.55em;font-family:var(--font-body);font-size:clamp(1rem,2.4vw,1.7rem);font-weight:700;letter-spacing:.06em;line-height:1;color:#FF8D6C;text-shadow:none}
+.sign__bulbs i{position:absolute;background-image:radial-gradient(circle,#FFF7DA 0 2.5px,#FFC66E 3.5px 4.5px,rgba(255,172,72,.3) 5.5px 9px,transparent 10px);animation:bulbs 1s ease-out both}
+.sign__bulbs i:nth-child(1){top:-11px;left:22px;right:22px;height:22px;background-size:28px 22px;background-repeat:space no-repeat}
+.sign__bulbs i:nth-child(2){right:-11px;top:22px;bottom:22px;width:22px;background-size:22px 28px;background-repeat:no-repeat space;animation-delay:.2s}
+.sign__bulbs i:nth-child(3){bottom:-11px;left:22px;right:22px;height:22px;background-size:28px 22px;background-repeat:space no-repeat;animation-delay:.4s}
+.sign__bulbs i:nth-child(4){left:-11px;top:22px;bottom:22px;width:22px;background-size:22px 28px;background-repeat:no-repeat space;animation-delay:.6s}
+@keyframes bulbs{0%{opacity:0}40%{opacity:1;filter:brightness(1.6)}100%{opacity:1;filter:none}}
+.neon{position:absolute;z-index:2;top:-30px;right:-28px;transform:rotate(-8deg);visibility:hidden;margin:0;padding:.22em .65em .26em;border:2px solid currentColor;border-radius:12px;background:rgba(10,22,16,.78);font-family:var(--font-body);font-weight:600;font-size:clamp(1rem,2vw,1.45rem);letter-spacing:.06em;line-height:1.1;color:#FF5646;text-shadow:0 0 3px #FF5646,0 0 12px rgba(255,86,70,.9),0 0 26px rgba(255,86,70,.55);box-shadow:0 0 12px rgba(255,86,70,.5),inset 0 0 12px rgba(255,86,70,.35)}
+.neon.is-open,.neon.is-closed{visibility:visible}
+.neon.is-closed{color:#8E9A92;text-shadow:none;box-shadow:none}
+.js .neon.is-open{animation:neon 1.5s steps(1,end) 1s both}
+@keyframes neon{0%{opacity:.15}10%{opacity:1}16%{opacity:.25}24%{opacity:1}30%{opacity:.4}38%,100%{opacity:1}}
+.hero--sign .hero__lead{margin-top:clamp(40px,6vh,64px);max-width:38rem;font-size:clamp(1.1rem,1.8vw,1.35rem);line-height:1.5;color:var(--night-ink);text-wrap:balance}
+.hero--sign .hero__actions{margin-top:26px}
+.hero__cue{position:absolute;left:50%;bottom:22px;z-index:3;transform:translateX(-50%);white-space:nowrap}
+@media (max-width:600px){.neon{top:-36px;right:-8px}}
+.story .chapter__title{font-size:clamp(1.9rem,3.7vw,3.3rem);line-height:1.06}
+
+.section--alt{background:var(--bg-2)}
+.about .prose{margin-top:28px}
+.about__tagline{margin-top:28px;padding-left:18px;border-left:4px solid var(--accent);font-family:var(--font-display);font-size:1.4rem;line-height:1.25}
+
+.regulars{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(40px,6vw,96px);align-items:center}
+.check{position:relative;max-width:560px;margin-bottom:10px;border-radius:6px 6px 0 0;background:#FFFDF6;color:#1C2A21;box-shadow:0 30px 70px -30px rgba(12,26,19,.45);transform:rotate(-1.4deg);font-variant-numeric:tabular-nums}
+.check::after{content:"";position:absolute;left:0;right:0;bottom:-10px;height:10px;background:radial-gradient(circle at 10px 11px,transparent 8px,#FFFDF6 9px) 0 0/20px 10px repeat-x}
+.check__head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:16px 22px;border-radius:6px 6px 0 0;background:#1F5A40;color:#F6EEDC;font-weight:700}
+.check__head span:last-child{font-weight:400;font-size:.9rem;opacity:.85}
+.check__list{list-style:none;padding:4px 22px}
+.check__list li{display:grid;grid-template-columns:1fr auto;gap:3px 16px;padding:14px 0;border-bottom:1px solid #DCE5DE}
+.check__item,.check__price{font-weight:700}
+.check__note{grid-column:1/-1;color:#4F5C53;font-size:.95rem;line-height:1.5}
+.check__foot{padding:16px 22px 24px;font-family:var(--font-display);font-size:1.45rem;color:#C7361F}
+.pull{font-family:var(--font-display);font-size:clamp(1.9rem,3.6vw,3rem);line-height:1.12;text-wrap:balance}
+.pull-cite{display:block;margin-top:16px;font-size:.97rem;color:var(--ink-2)}
+.regulars .lede{margin-bottom:28px}
+@media (max-width:880px){.regulars{grid-template-columns:1fr}.check{transform:rotate(-.8deg)}}
+
+.ways{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(28px,4vw,56px);list-style:none}
+.ways li{padding-top:26px;border-top:3px solid var(--ink)}
+.ways svg{width:44px;height:44px;margin-bottom:18px;color:var(--accent);fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.ways p{margin-top:8px;color:var(--ink-2)}
+.ways .link{display:inline-block;margin-top:14px}
+@media (max-width:860px){.ways{grid-template-columns:1fr}}
+
+.cater{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:clamp(32px,5vw,72px);align-items:start}
+.cater__h{margin:0 0 8px;font-size:1.25rem;font-weight:800}
+.cater__h+.cater__list{margin-bottom:34px}
+.cater__list{list-style:none;border-top:1px solid var(--line-strong)}
+.cater__item{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;padding:12px 0;border-bottom:1px solid var(--line)}
+.cater__info{flex:1 1 200px;min-width:0}
+.cater__name{display:block;font-weight:700}
+.cater__meta{display:block;font-size:.93rem;color:var(--ink-2)}
+.stepper{display:inline-flex;align-items:center;border:1px solid var(--line-strong);border-radius:999px;background:var(--bg-2)}
+.stepper button{width:44px;height:44px;border:0;border-radius:999px;background:transparent;font-size:1.35rem;line-height:1;color:var(--ink)}
+.stepper button:disabled{opacity:.35;cursor:default}
+.stepper output{min-width:2.2ch;text-align:center;font-weight:800;font-variant-numeric:tabular-nums}
+.cater__item.is-on .stepper{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.cater__sauce{flex-basis:100%;display:flex;flex-wrap:wrap;gap:4px 20px;margin:0;padding:0;border:0}
+.cater__sauce label{display:inline-flex;align-items:center;gap:8px;min-height:36px;font-size:.95rem}
+.cater__sauce input{width:18px;height:18px;accent-color:var(--accent)}
+.cater__summary{position:sticky;top:96px;padding:clamp(22px,2.6vw,32px);border:1px solid var(--line);border-radius:14px;background:var(--bg-2)}
+.cater__lines{list-style:none;margin-top:6px}
+.cater__lines li{display:flex;justify-content:space-between;gap:14px;padding:9px 0;border-bottom:1px dashed var(--line-strong);font-size:.97rem}
+.cater__lines li span:last-child{font-weight:700;font-variant-numeric:tabular-nums}
+.cater__empty{padding:10px 0;color:var(--ink-2)}
+.cater__total{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-top:16px;font-weight:700}
+.cater__total strong{font-size:1.8rem;font-variant-numeric:tabular-nums}
+.cater__fine{margin-top:6px;font-size:.9rem;color:var(--ink-2)}
+.cater__actions{display:grid;gap:10px;margin-top:20px}
+.cater__actions .btn{width:100%}
+@media (max-width:900px){.cater{grid-template-columns:1fr}.cater__summary{position:static}}
+.visit__block p+p{margin-top:10px}
+.footer__links li{color:var(--night-muted)}
+
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav" data-nav>
+  <div class="wrap nav__inner">
+    <a class="brand" href="#top"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3.5 7.5c7.8-3.8 17.2-3.8 25 0L16 29Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M5.6 10.9c6.6-2.8 14.2-2.8 20.8 0" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="12.5" cy="14" r="1.9" fill="currentColor"/><circle cx="19" cy="15.5" r="1.9" fill="currentColor"/><circle cx="15.6" cy="21" r="1.7" fill="currentColor"/></svg><span>Antonio’s</span></a>
+    <ul class="nav__links" id="site-links" role="list"><li><a href="#menu">Menu</a></li><li><a href="#about">About</a></li><li><a href="#catering">Catering</a></li><li><a href="#visit">Visit</a></li><li class="nav__cta-item"><a href="tel:+18033419720">Call to order</a></li></ul>
+    <a class="btn nav__cta" href="tel:+18033419720">Call to order</a>
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="site-links" aria-label="Open menu" data-nav-toggle><span></span><span></span></button>
+  </div>
+</header>
+<main id="main">
+<section class="hero hero--sign night" id="top" aria-labelledby="hero-title">
+  <div class="hero__inner">
+    <div class="sign">
+      <div class="sign__bulbs" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+      <p class="neon" data-open-sign><span class="sr-only">Right now we’re </span><span data-open-word></span></p>
+      <h1 class="sign__title" id="hero-title">Antonio’s <span>Italian Eatery</span></h1>
+    </div>
+    <p class="hero__lead">New York–style pizza, pasta, subs and homemade pies on Georgia Avenue in North Augusta since 2010.</p>
+    <div class="hero__actions"><a class="btn btn--solid" href="#menu">See the menu</a><a class="btn btn--ghost" href="tel:+18033419720">Call 803-341-9720</a></div>
+    <p class="hero__status" data-status></p>
+  </div>
+  <a class="cue hero__cue" href="#story">Scroll to watch a pie come together</a>
+</section>
+<section class="story night" id="story" data-story style="--chapters:6" aria-labelledby="story-title">
+  <h2 class="sr-only" id="story-title">How an Antonio’s pizza comes together</h2>
+  <ol class="sr-only"><li>Tossed by hand. Every hand-tossed pie starts as a ball of dough and gets stretched out to 14 or 16 inches.</li><li>Sauce, from the middle out. Pizza sauce goes on first. With the pasta, calzones and parm subs, you choose meat sauce or marinara.</li><li>A good layer of mozzarella. The Four Cheese adds provolone, cheddar and parmesan. The Margherita uses fresh mozzarella.</li><li>Pepperoni, or ten toppings at once. Choose from sausage, peppers, olives, banana peppers, pineapple and more, or get ten on the Deluxe.</li><li>Baked till it bubbles. The edges turn golden, the cheese browns in spots and the pepperoni crisps up.</li><li>Grab a slice. A hand-tossed cheese slice is $3.00 and a thick-crust Sicilian slice is $3.25. Or take the whole pie home.</li></ol>
+  <div class="story__sticky">
+    <div class="story__text" aria-hidden="true"><div class="chapter is-active"><p class="chapter__num"><b>I</b><span>The dough</span></p><h3 class="chapter__title">Tossed by hand.</h3><p class="chapter__body">Every hand-tossed pie starts as a ball of dough and gets stretched out to 14 or 16 inches.</p></div><div class="chapter"><p class="chapter__num"><b>II</b><span>The sauce</span></p><h3 class="chapter__title">Sauce, from the middle out.</h3><p class="chapter__body">Pizza sauce goes on first. With the pasta, calzones and parm subs, you choose meat sauce or marinara.</p></div><div class="chapter"><p class="chapter__num"><b>III</b><span>The cheese</span></p><h3 class="chapter__title">A good layer of mozzarella.</h3><p class="chapter__body">The Four Cheese adds provolone, cheddar and parmesan. The Margherita uses fresh mozzarella.</p></div><div class="chapter"><p class="chapter__num"><b>IV</b><span>The toppings</span></p><h3 class="chapter__title">Pepperoni, or ten toppings at once.</h3><p class="chapter__body">Choose from sausage, peppers, olives, banana peppers, pineapple and more, or get ten on the Deluxe.</p></div><div class="chapter"><p class="chapter__num"><b>V</b><span>The oven</span></p><h3 class="chapter__title">Baked till it bubbles.</h3><p class="chapter__body">The edges turn golden, the cheese browns in spots and the pepperoni crisps up.</p></div><div class="chapter"><p class="chapter__num"><b>VI</b><span>The slice</span></p><h3 class="chapter__title">Grab a slice.</h3><p class="chapter__body">A hand-tossed cheese slice is $3.00 and a thick-crust Sicilian slice is $3.25. Or take the whole pie home.</p><div class="chapter__actions"><a class="btn btn--solid" href="#menu" tabindex="-1">See the menu</a><a class="btn btn--ghost" href="tel:+18033419720" tabindex="-1">Call to order</a></div></div></div>
+    <div class="story__art" aria-hidden="true"><svg viewBox="0 0 600 600" focusable="false" data-pizza></svg></div>
+    <ol class="story__rail" aria-hidden="true"><li class="is-active">I</li><li class="">II</li><li class="">III</li><li class="">IV</li><li class="">V</li><li class="">VI</li></ol>
+    <div class="story__bar" aria-hidden="true"><span></span></div>
+  </div>
+</section>
+<section class="section" id="menu" aria-labelledby="menu-title">
+  <div class="wrap">
+    <header class="section__head"><h2 class="h2" id="menu-title">The menu</h2><p class="lede">Pizza, pasta, subs, calzones, salads and homemade pies. There’s an additional charge for to-go orders.</p></header>
+    <div class="menu" data-menu>
+  <div class="menu__tools">
+    <div class="menu__search"><label class="sr-only" for="menu-q">Search the menu</label><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="menu-q" type="search" placeholder="Search dishes or ingredients" autocomplete="off" data-menu-search></div>
+    <div class="tabs" role="tablist" aria-label="Menu sections"><button class="tab" type="button" role="tab" id="tab-pizza" aria-controls="panel-pizza" aria-selected="true" tabindex="0">Pizza</button><button class="tab" type="button" role="tab" id="tab-pasta" aria-controls="panel-pasta" aria-selected="false" tabindex="-1">Pasta</button><button class="tab" type="button" role="tab" id="tab-subs" aria-controls="panel-subs" aria-selected="false" tabindex="-1">Subs</button><button class="tab" type="button" role="tab" id="tab-calzones" aria-controls="panel-calzones" aria-selected="false" tabindex="-1">Calzones &amp; rolls</button><button class="tab" type="button" role="tab" id="tab-salads" aria-controls="panel-salads" aria-selected="false" tabindex="-1">Salads</button><button class="tab" type="button" role="tab" id="tab-starters" aria-controls="panel-starters" aria-selected="false" tabindex="-1">Starters</button><button class="tab" type="button" role="tab" id="tab-lunch" aria-controls="panel-lunch" aria-selected="false" tabindex="-1">Lunch &amp; kids</button><button class="tab" type="button" role="tab" id="tab-desserts" aria-controls="panel-desserts" aria-selected="false" tabindex="-1">Desserts</button><button class="tab" type="button" role="tab" id="tab-drinks" aria-controls="panel-drinks" aria-selected="false" tabindex="-1">Drinks</button></div>
+  </div>
+  <p class="menu__empty" data-menu-empty hidden></p>
+  <div class="menu__panels"><div class="menu__panel" role="tabpanel" id="panel-pizza" aria-labelledby="tab-pizza" tabindex="0"><h3 class="menu__panel-title">Pizza</h3><div class="menu__group menu__group--cols"><h3 class="menu__group-title">Hand-tossed pizza</h3><p class="menu__group-intro">Neapolitan-style, hand tossed.</p><div class="dish__row dish__row--head" aria-hidden="true"><span></span><span class="dish__leader"></span><span class="dish__prices"><span class="price">14″</span><span class="price">16″</span></span></div><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">Cheese</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$11.75</span><span class="price"><span class="sr-only">16″: </span>$13.85</span></span></div><p class="dish__desc">Extra toppings $1.50 (14″) or $2.00 (16″) each. Premium toppings $2.25 or $2.75 each.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Olive Oil &amp; Garlic</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$12.25</span><span class="price"><span class="sr-only">16″: </span>$14.25</span></span></div><p class="dish__desc">Olive oil, garlic and mozzarella.</p></li></ul></div><div class="menu__group menu__group--cols"><h3 class="menu__group-title">Specialty pizzas</h3><div class="dish__row dish__row--head" aria-hidden="true"><span></span><span class="dish__leader"></span><span class="dish__prices"><span class="price">14″</span><span class="price">16″</span></span></div><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">Deluxe (10 toppings)</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$18.60</span><span class="price"><span class="sr-only">16″: </span>$21.70</span></span></div><p class="dish__desc">Pepperoni, Italian sausage, beef, ham, bell peppers, black and green olives, onions, mushrooms and extra cheese.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">The Hawaiian</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$13.85</span><span class="price"><span class="sr-only">16″: </span>$16.45</span></span></div><p class="dish__desc">Pineapple and ham.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Veggie Pizza</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$15.35</span><span class="price"><span class="sr-only">16″: </span>$17.95</span></span></div><p class="dish__desc">Green olives, black olives, fresh mushrooms, onions and bell peppers.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Meat Pizza</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$15.95</span><span class="price"><span class="sr-only">16″: </span>$19.60</span></span></div><p class="dish__desc">Pepperoni, Italian sausage, ham, beef and bacon.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Bacon Cheddar Burger Pizza</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$15.95</span><span class="price"><span class="sr-only">16″: </span>$18.60</span></span></div><p class="dish__desc">Bacon, beef, cheddar and mozzarella.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Greek Pizza</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$18.60</span><span class="price"><span class="sr-only">16″: </span>$21.20</span></span></div><p class="dish__desc">Feta, Greek olives, tomato, red onion, pepperoncini and mozzarella.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">The Donna Rae</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$15.15</span><span class="price"><span class="sr-only">16″: </span>$17.80</span></span></div><p class="dish__desc">Pepperoni, onion, bacon and banana peppers.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Four Cheese Pizza</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$14.75</span><span class="price"><span class="sr-only">16″: </span>$17.35</span></span></div><p class="dish__desc">Provolone, mozzarella, cheddar and parmesan.</p></li></ul></div><div class="menu__group menu__group--cols"><h3 class="menu__group-title">Whole pies only</h3><div class="dish__row dish__row--head" aria-hidden="true"><span></span><span class="dish__leader"></span><span class="dish__prices"><span class="price">14″</span><span class="price">16″</span></span></div><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">Cheesesteak Pizza</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$17.10</span><span class="price"><span class="sr-only">16″: </span>$20.10</span></span></div><p class="dish__desc">Grilled steak, onion, bell pepper and mozzarella.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Presto Pesto Pizza</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$15.95</span><span class="price"><span class="sr-only">16″: </span>$18.05</span></span></div><p class="dish__desc">Pizza sauce, sun-dried tomatoes, mozzarella, sausage, feta and a pesto drizzle.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">White Clam Pizza</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$17.95</span><span class="price"><span class="sr-only">16″: </span>$21.50</span></span></div><p class="dish__desc">Olive oil, fresh garlic, chopped clams and mozzarella.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Margherita Pizza</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$15.95</span><span class="price"><span class="sr-only">16″: </span>$18.45</span></span></div><p class="dish__desc">Marinara, fresh mozzarella, Roma tomatoes and fresh basil.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">The Allie Pizza</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$16.85</span><span class="price"><span class="sr-only">16″: </span>$19.55</span></span></div><p class="dish__desc">Grilled chicken, Alfredo sauce and mozzarella.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Buffalo Wing Pizza</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">14″: </span>$15.65</span><span class="price"><span class="sr-only">16″: </span>$18.30</span></span></div><p class="dish__desc">Buffalo chicken, wing sauce, mozzarella, bleu cheese crumbles and celery.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Nonna Gentile Pizza, extra thin</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price price--span" style="--span:2">$18.05</span></span></div><p class="dish__desc">Marinara, mozzarella, parmesan and fresh basil.</p></li></ul></div><div class="menu__group menu__group--cols"><h3 class="menu__group-title">Sicilian, thick crust</h3><div class="dish__row dish__row--head" aria-hidden="true"><span></span><span class="dish__leader"></span><span class="dish__prices"><span class="price">Cheese</span><span class="price">Deluxe</span></span></div><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">8 slice (medium)</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Cheese: </span>$14.00</span><span class="price"><span class="sr-only">Deluxe: </span>$22.75</span></span></div><p class="dish__desc">Extra toppings $2.00 each, premium toppings $2.75 each.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">12 slice (large)</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Cheese: </span>$18.25</span><span class="price"><span class="sr-only">Deluxe: </span>$30.10</span></span></div><p class="dish__desc">Extra toppings $2.55 each, premium toppings $3.25 each.</p></li></ul></div><div class="menu__group"><h3 class="menu__group-title">By the slice</h3><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">Hand-tossed cheese slice</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$3.00</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Sicilian cheese slice</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$3.25</span></span></div><p class="dish__desc">Thick crust.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Hand-tossed deluxe slice</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$7.25</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Sicilian deluxe slice</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$7.50</span></span></div></li></ul><p class="menu__note">Add a topping for 50¢ a slice, or a premium topping for $1.00 a slice.</p></div><div class="menu__group menu__group--chips"><h3 class="menu__group-title">Toppings</h3><p class="menu__sub">Regular</p><ul class="chips" role="list"><li>Pepperoni</li><li>Italian sausage</li><li>Beef</li><li>Ham</li><li>Green olives</li><li>Black olives</li><li>Bell peppers</li><li>Onions</li><li>Banana peppers</li><li>Jalapeño peppers</li><li>Pineapple</li><li>Cheddar</li><li>Pesto drizzle</li><li>Extra cheese</li><li>Extra sauce</li></ul><p class="menu__sub">Premium</p><ul class="chips" role="list"><li>Provolone</li><li>Fresh mozzarella</li><li>Ricotta</li><li>Feta</li><li>Meatballs</li><li>Bacon</li><li>Salami</li><li>Anchovies</li><li>Spinach</li><li>Sliced tomatoes</li><li>Sun-dried tomatoes</li><li>Fresh garlic</li><li>Fresh basil</li><li>Fresh mushrooms</li></ul></div></div><div class="menu__panel" role="tabpanel" id="panel-pasta" aria-labelledby="tab-pasta" tabindex="0"><h3 class="menu__panel-title">Pasta</h3><div class="menu__group"><h3 class="menu__group-title">Pasta dinners</h3><p class="menu__group-intro">Served with a garden salad and Italian bread. Upgrade to an antipasto or Greek salad for $2.50.</p><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">Linguine with Clams</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$16.20</span></span></div><p class="dish__desc">Clams sautéed in garlic, white wine and their natural juices. Not a cream sauce. Extra clams $5.25.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Linguine with Clams in Red Sauce</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$17.25</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Fettuccine Alfredo</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$15.10</span></span></div><p class="dish__desc">Fettuccine tossed in a rich cream sauce with parmesan. Add breaded or grilled chicken $5.00, spinach $2.50, pepperoni $1.75 or extra Alfredo sauce (3 oz.) $1.75.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Aglio e Olio</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$13.55</span></span></div><p class="dish__desc">Spaghetti with sautéed garlic and olive oil.</p></li></ul></div><div class="menu__group"><h3 class="menu__group-title">With meat sauce or marinara</h3><p class="menu__group-intro">Your choice of sauce. Add meatballs, sausage or mushrooms for $2.50 each.</p><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">Lasagna</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$14.05</span></span></div><p class="dish__desc">Lasagna noodles layered with ricotta, mozzarella and ground beef, covered with meat sauce and topped with mozzarella.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Chicken Parmigiana</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$17.55</span></span></div><p class="dish__desc">Breaded chicken breast with parmesan, covered with sauce and topped with mozzarella. Served with a side of spaghetti.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Eggplant Parmigiana</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$14.60</span></span></div><p class="dish__desc">Breaded eggplant with parmesan, layered with marinara and mozzarella. $16.15 with a side of spaghetti (3 oz.).</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Baked Penne</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$13.95</span></span></div><p class="dish__desc">Penne with ricotta and mozzarella, covered with sauce and topped with mozzarella.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Meat Cannelloni</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$13.85</span></span></div><p class="dish__desc">Pasta tubes stuffed with beef, spinach, Italian sausage and ricotta, covered with sauce and topped with mozzarella.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Baked Spaghetti</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$13.75</span></span></div><p class="dish__desc">Topped with mozzarella.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Stuffed Shells</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$13.05</span></span></div><p class="dish__desc">Pasta shells stuffed with ricotta and mozzarella, covered with sauce and topped with mozzarella.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Stuffed Green Peppers</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$12.80</span></span></div><p class="dish__desc">Peppers stuffed with ground beef, rice and Italian spices, covered with mozzarella. $14.35 with a side of spaghetti (3 oz.).</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Manicotti</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$12.55</span></span></div><p class="dish__desc">Pasta tubes stuffed with ricotta and mozzarella, covered with sauce and topped with mozzarella.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Beef Ravioli</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$12.55</span></span></div><p class="dish__desc">Large ravioli stuffed with beef, parmesan, spinach and mozzarella, covered with sauce and topped with mozzarella.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Spaghetti</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$12.55</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Cheese Ravioli</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$12.30</span></span></div><p class="dish__desc">Large ravioli stuffed with ricotta, parmesan and provolone, covered with sauce and topped with mozzarella.</p></li></ul><p class="menu__note">Extras: Italian bread $1.25, garlic bread $1.75, extra cheese $1.75, extra sauce $1.75. Swap in Alfredo sauce for $2.75.</p></div></div><div class="menu__panel" role="tabpanel" id="panel-subs" aria-labelledby="tab-subs" tabindex="0"><h3 class="menu__panel-title">Subs</h3><div class="menu__group menu__group--cols"><h3 class="menu__group-title">Deli subs</h3><p class="menu__group-intro">Hot or cold on a sub roll, served with chips and a pickle.</p><div class="dish__row dish__row--head" aria-hidden="true"><span></span><span class="dish__leader"></span><span class="dish__prices"><span class="price">Half</span><span class="price">Whole</span></span></div><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">The Frankino (the meat sub)</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Half: </span>$7.25</span><span class="price"><span class="sr-only">Whole: </span>$9.35</span></span></div><p class="dish__desc">Ham, turkey, salami, pepperoni and provolone with lettuce and tomato.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Italian Sub</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Half: </span>$6.75</span><span class="price"><span class="sr-only">Whole: </span>$9.15</span></span></div><p class="dish__desc">Ham, salami and provolone with lettuce and tomato.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Turkey Sub</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Half: </span>$6.75</span><span class="price"><span class="sr-only">Whole: </span>$9.15</span></span></div><p class="dish__desc">Turkey with lettuce and tomato.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Ham and Cheese Sub</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Half: </span>$6.75</span><span class="price"><span class="sr-only">Whole: </span>$8.70</span></span></div><p class="dish__desc">Ham and provolone with lettuce and tomato.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Tuna Sub</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Half: </span>$6.75</span><span class="price"><span class="sr-only">Whole: </span>$8.40</span></span></div><p class="dish__desc">Tuna tossed with mayonnaise, topped with lettuce and tomato.</p></li></ul></div><div class="menu__group menu__group--cols"><h3 class="menu__group-title">Toasted subs</h3><p class="menu__group-intro">Served with chips and a pickle.</p><div class="dish__row dish__row--head" aria-hidden="true"><span></span><span class="dish__leader"></span><span class="dish__prices"><span class="price">Half</span><span class="price">Whole</span></span></div><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">Meatball Parm Sub</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Half: </span>$6.95</span><span class="price"><span class="sr-only">Whole: </span>$9.15</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Sausage Parm Sub</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Half: </span>$6.95</span><span class="price"><span class="sr-only">Whole: </span>$9.05</span></span></div><p class="dish__desc">Add mushrooms $1.00, green peppers or onions 75¢.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Pizza Sub</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Half: </span>$6.50</span><span class="price"><span class="sr-only">Whole: </span>$7.25</span></span></div><p class="dish__desc">Mozzarella layered and topped with pepperoni and your choice of meat sauce or marinara.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Chicken Parm Sub</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price price--na"><span class="sr-only">Half: </span><span aria-hidden="true">–</span><span class="sr-only">not offered</span></span><span class="price"><span class="sr-only">Whole: </span>$10.15</span></span></div><p class="dish__desc">Breaded chicken breast with melted mozzarella and your choice of meat sauce or marinara.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Eggplant Parm Sub</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price price--na"><span class="sr-only">Half: </span><span aria-hidden="true">–</span><span class="sr-only">not offered</span></span><span class="price"><span class="sr-only">Whole: </span>$9.40</span></span></div><p class="dish__desc">Layers of breaded eggplant with melted mozzarella, topped with marinara.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Steak or Chicken Special</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price price--na"><span class="sr-only">Half: </span><span aria-hidden="true">–</span><span class="sr-only">not offered</span></span><span class="price"><span class="sr-only">Whole: </span>$9.95</span></span></div><p class="dish__desc">Steak or chicken with mushrooms, onions, green peppers and provolone. Add lettuce and tomato $1.00, extra meat $2.75.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Steak or Chicken Sub</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price price--na"><span class="sr-only">Half: </span><span aria-hidden="true">–</span><span class="sr-only">not offered</span></span><span class="price"><span class="sr-only">Whole: </span>$8.50</span></span></div><p class="dish__desc">Tender sliced steak or chicken on a sub roll. Add onions, green peppers or provolone 75¢, mushrooms $1.25, extra meat $2.50.</p></li></ul><p class="menu__note">The last four subs come whole only. Extra items 75¢ each, extra premium toppings $1.25 each.</p></div></div><div class="menu__panel" role="tabpanel" id="panel-calzones" aria-labelledby="tab-calzones" tabindex="0"><h3 class="menu__panel-title">Calzones &amp; rolls</h3><div class="menu__group"><h3 class="menu__group-title">Calzones, rolls and stromboli</h3><p class="menu__group-intro">Served with your choice of meat sauce or marinara.</p><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">Cheese Calzone</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$7.25</span></span></div><p class="dish__desc">Pizza dough stuffed with ricotta and mozzarella.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Stromboli</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$7.75</span></span></div><p class="dish__desc">Pizza dough stuffed with ham, pepperoni and mozzarella.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Spinach &amp; Feta Calzone</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$8.85</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Sausage Roll</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$8.95</span></span></div><p class="dish__desc">Pizza dough stuffed with sausage, green peppers, onions and mozzarella.</p></li></ul><p class="menu__note">Extra item or sauce 75¢ each. Extra premium topping $1.25 each.</p></div></div><div class="menu__panel" role="tabpanel" id="panel-salads" aria-labelledby="tab-salads" tabindex="0"><h3 class="menu__panel-title">Salads</h3><div class="menu__group menu__group--cols"><h3 class="menu__group-title">Salads</h3><div class="dish__row dish__row--head" aria-hidden="true"><span></span><span class="dish__leader"></span><span class="dish__prices"><span class="price">Regular</span><span class="price">Family</span></span></div><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">Garden Salad</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Regular: </span>$4.25</span><span class="price"><span class="sr-only">Family: </span>$14.60</span></span></div><p class="dish__desc">Lettuce, tomato, cucumber and red onion.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Antipasto Salad</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Regular: </span>$7.60</span><span class="price"><span class="sr-only">Family: </span>$26.10</span></span></div><p class="dish__desc">Lettuce, ham, green olives, pepperoni, mozzarella, salami and red onion.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Greek Salad</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Regular: </span>$7.60</span><span class="price"><span class="sr-only">Family: </span>$26.10</span></span></div><p class="dish__desc">Lettuce, red onion, feta, Greek olives, cucumbers, pepperoncini and tomato, with Antonio’s dressing.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Tuna Salad</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Regular: </span>$7.50</span><span class="price price--na"><span class="sr-only">Family: </span><span aria-hidden="true">–</span><span class="sr-only">not offered</span></span></span></div><p class="dish__desc">A scoop of tuna on lettuce with tomato, cucumber and red onion.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Grilled Chicken Salad</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Regular: </span>$9.90</span><span class="price price--na"><span class="sr-only">Family: </span><span aria-hidden="true">–</span><span class="sr-only">not offered</span></span></span></div><p class="dish__desc">Seasoned grilled chicken breast with lettuce, tomato, red onion, cucumber and mozzarella.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Pesto Chicken Spinach Salad</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Regular: </span>$9.90</span><span class="price price--na"><span class="sr-only">Family: </span><span aria-hidden="true">–</span><span class="sr-only">not offered</span></span></span></div><p class="dish__desc">Grilled chicken in pesto over fresh baby spinach, with mushrooms, Roma tomatoes, red onion and a light sprinkle of feta.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Steak Salad</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Regular: </span>$10.25</span><span class="price price--na"><span class="sr-only">Family: </span><span aria-hidden="true">–</span><span class="sr-only">not offered</span></span></span></div><p class="dish__desc">Steak with grilled onion, mushroom, bell pepper, mozzarella, lettuce and tomato.</p></li></ul><p class="menu__note">Add feta, bacon, turkey, mushrooms or bleu cheese for $1.25. Add cheddar or mozzarella for 75¢.</p></div><div class="menu__group menu__group--chips"><h3 class="menu__group-title">Dressings</h3><p class="menu__sub">Choose one</p><ul class="chips" role="list"><li>Antonio’s</li><li>Creamy Italian</li><li>Balsamic</li><li>Ranch</li><li>Bleu cheese</li><li>Honey mustard</li><li>French</li><li>Thousand Island</li><li>Sweet &amp; sour</li></ul></div></div><div class="menu__panel" role="tabpanel" id="panel-starters" aria-labelledby="tab-starters" tabindex="0"><h3 class="menu__panel-title">Starters</h3><div class="menu__group"><h3 class="menu__group-title">Starters</h3><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">Garlic Cheese Bread with sauce</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$4.25</span></span></div><p class="dish__desc">Add bacon for $1.00.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Breadsticks with sauce</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$4.65</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Pesto Garlic Cheese Bread</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$5.15</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Meatballs with Cheese</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$5.50</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Italian Sausage with Cheese</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$5.75</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Pepperoni Roll with sauce</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$5.75</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Garlic Dough Dots</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$6.75</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Buffalo Wings (6)</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$6.95</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Smoked Wings (6)</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$7.95</span></span></div></li></ul></div></div><div class="menu__panel" role="tabpanel" id="panel-lunch" aria-labelledby="tab-lunch" tabindex="0"><h3 class="menu__panel-title">Lunch &amp; kids</h3><div class="menu__group"><h3 class="menu__group-title">Slice combos</h3><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">2 hand-tossed slices with 1 topping and a 20 oz. drink</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$7.00</span></span></div><p class="dish__desc">$8.05 with a premium topping.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">2 Sicilian cheese slices with 1 topping and a 20 oz. drink</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$7.50</span></span></div><p class="dish__desc">$8.55 with a premium topping.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">1 hand-tossed cheese slice, garden salad and a 20 oz. drink</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$8.05</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">1 Sicilian cheese slice, garden salad and a 20 oz. drink</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$8.35</span></span></div></li></ul></div><div class="menu__group"><h3 class="menu__group-title">Lunch pasta</h3><p class="menu__group-intro">Monday to Friday, 11 am to 3 pm. Kids 12 and under can order these any time. Served with Italian bread; no salad included.</p><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">Spaghetti</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$7.85</span></span></div><p class="dish__desc">With meat sauce or marinara.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Manicotti</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$7.85</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Meat Cannelloni</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$8.20</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Beef Ravioli</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$8.20</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Cheese Ravioli</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$8.20</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Baked Spaghetti</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$8.50</span></span></div><p class="dish__desc">With meat sauce or marinara.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Fettuccine Alfredo</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$9.05</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Spaghetti noodles only</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$4.75</span></span></div><p class="dish__desc">No sauce.</p></li></ul><p class="menu__note">Extra Italian bread $1.25, extra cheese 75¢, extra sauce $1.25, swap in Alfredo $1.50. Add meatballs, sausage or mushrooms for $2.00 each.</p></div></div><div class="menu__panel" role="tabpanel" id="panel-desserts" aria-labelledby="tab-desserts" tabindex="0"><h3 class="menu__panel-title">Desserts</h3><div class="menu__group menu__group--cols"><h3 class="menu__group-title">Pies and cheesecake</h3><div class="dish__row dish__row--head" aria-hidden="true"><span></span><span class="dish__leader"></span><span class="dish__prices"><span class="price">Slice</span><span class="price">Whole</span></span></div><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">Homemade Apple Pie</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Slice: </span>$5.65</span><span class="price"><span class="sr-only">Whole: </span>$20.00</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Homemade Blueberry Pie</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Slice: </span>$5.65</span><span class="price"><span class="sr-only">Whole: </span>$21.00</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Homemade Apple Blueberry Pie</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Slice: </span>$5.65</span><span class="price"><span class="sr-only">Whole: </span>$22.00</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Homemade Mixed Berry Pie</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Slice: </span>$5.65</span><span class="price"><span class="sr-only">Whole: </span>$22.00</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Homemade Blackberry Pie</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Slice: </span>$5.65</span><span class="price"><span class="sr-only">Whole: </span>$23.00</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Homemade Red Raspberry Pie</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Slice: </span>$5.65</span><span class="price"><span class="sr-only">Whole: </span>$24.00</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">New York Cheesecake</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Slice: </span>$5.75</span><span class="price"><span class="sr-only">Whole: </span>$30.00</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Pineapple Cream Pie</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Slice: </span>$4.85</span><span class="price"><span class="sr-only">Whole: </span>$16.00</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Peanut Butter Pie</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Slice: </span>$4.85</span><span class="price"><span class="sr-only">Whole: </span>$16.00</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">White Chocolate Pie</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price"><span class="sr-only">Slice: </span>$4.85</span><span class="price"><span class="sr-only">Whole: </span>$16.00</span></span></div></li></ul></div><div class="menu__group"><h3 class="menu__group-title">More sweets</h3><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">Homemade Pie à la Mode</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$6.95</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Tiramisu</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$5.50</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Brownie à la Mode</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$4.95</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Spumoni Ice Cream</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$3.95</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Cannoli</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$3.75</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Vanilla Ice Cream</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$3.50</span></span></div></li></ul><p class="menu__note">Ask your server what’s available today, and about dessert specials.</p></div></div><div class="menu__panel" role="tabpanel" id="panel-drinks" aria-labelledby="tab-drinks" tabindex="0"><h3 class="menu__panel-title">Drinks</h3><div class="menu__group"><h3 class="menu__group-title">Drinks</h3><ul class="dishes" role="list"><li class="dish"><div class="dish__row"><h4 class="dish__name">Fountain drink, 20 oz.</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$2.65</span></span></div><p class="dish__desc">Coke, Diet Coke, Coke Zero, Cherry Coke, Sprite, Mr Pibb, lemonade, or sweet or unsweetened tea.</p></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Fountain drink, 32 oz.</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$3.25</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Coffee</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$2.00</span></span></div></li><li class="dish"><div class="dish__row"><h4 class="dish__name">Gallon of tea or soda</h4><span class="dish__leader" aria-hidden="true"></span><span class="dish__prices"><span class="price">$5.00</span></span></div><p class="dish__desc">Serves 8 to 10 people.</p></li></ul></div></div></div>
+</div>
+  </div>
+</section>
+
+<section class="section section--alt about" id="about" aria-labelledby="about-title">
+  <div class="wrap split">
+    <div>
+      <h2 class="h2" id="about-title">A taste of Brooklyn in North Augusta</h2>
+      <div class="prose">
+        <p>Antonio’s opened on Georgia Avenue in 2010. Owner Frank grew up in Brooklyn, New York, and brought that taste south with him.</p>
+        <p>That’s why hand-tossed and Sicilian pies, parm subs, baked pastas and New York cheesecake share one menu with homemade fruit pies. It’s a casual place for lunch and dinner, and when you’re feeding a crowd, we make party pans too.</p>
+      </div>
+      <p class="about__tagline">Bringing Italy to North Augusta.</p>
+    </div>
+    <dl class="facts">
+      <dt>Opened</dt><dd>2010</dd>
+      <dt>Hand-tossed pizza</dt><dd>14″ or 16″</dd>
+      <dt>Sicilian pizza</dt><dd>8 or 12 slices</dd>
+      <dt>Lunch pasta</dt><dd>Monday to Friday, 11 am to 3 pm</dd>
+      <dt>Kids 12 and under</dt><dd>Lunch pasta any time</dd>
+      <dt>To-go orders</dt><dd>Additional charge</dd>
+    </dl>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="regulars-title">
+  <div class="wrap regulars">
+    <div>
+      <h2 class="h2" id="regulars-title">What regulars order</h2>
+      <p class="lede">Taken from the notes guests have left us over the years.</p>
+      <figure>
+        <blockquote><p class="pull">“Pizza was the best we have found in the CSRA!”</p></blockquote>
+        <figcaption class="pull-cite">Guest review, 2019</figcaption>
+      </figure>
+    </div>
+    <div class="check" role="group" aria-label="Guest check of regulars’ favorites">
+      <div class="check__head"><span>Guest check</span><span>Antonio’s</span></div>
+      <ul class="check__list" role="list"><li><span class="check__item">Hand-tossed pizza</span><span class="check__price">from $11.75</span><span class="check__note">Mentioned in more guest notes than anything else on the menu.</span></li><li><span class="check__item">Antipasto Salad</span><span class="check__price">$7.60</span><span class="check__note">Guests single out how fresh it is, and the light house dressing.</span></li><li><span class="check__item">Greek Salad</span><span class="check__price">$7.60</span><span class="check__note">Comes with Antonio’s dressing, and pairs well with a pizza.</span></li><li><span class="check__item">Stromboli</span><span class="check__price">$7.75</span><span class="check__note">A family favorite, along with the Italian sausage and cheese starter.</span></li><li><span class="check__item">Meatballs with Cheese</span><span class="check__price">$5.50</span><span class="check__note">One big fan pairs them with a garden salad.</span></li><li><span class="check__item">Spaghetti</span><span class="check__price">$12.55</span><span class="check__note">Ask for marinara if you want it meatless.</span></li></ul>
+      <p class="check__foot">Thank you, come again</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight section--alt" aria-labelledby="ways-title">
+  <div class="wrap">
+    <header class="section__head"><h2 class="h2" id="ways-title">Eat here, take it home, or feed a crowd</h2></header>
+    <ul class="ways" role="list">
+      <li><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="26" r="12.5"/><circle cx="24" cy="26" r="6.5"/><path d="M6 8v9a3 3 0 0 0 3 3v20M9 8v7M12 8v9a3 3 0 0 1-3 3M42 8c-3 2-4 6-4 11v4h4v17"/></svg><h3 class="h3">Dine in</h3><p>Casual tables for lunch and dinner, Monday through Saturday.</p></li>
+      <li><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 16h28l-2 26H12L10 16Z"/><path d="M17 16v-3a7 7 0 0 1 14 0v3"/></svg><h3 class="h3">Take out</h3><p>Call ahead and pick up at Jackson Square. To-go orders have an additional charge.</p><a class="link" href="tel:+18033419720">Call 803-341-9720</a></li>
+      <li><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 22h36v10a6 6 0 0 1-6 6H12a6 6 0 0 1-6-6V22Z"/><path d="M2 25h4M42 25h4M13 22c2-4 5.5-6 11-6s9 2 11 6"/></svg><h3 class="h3">Catering</h3><p>Party pans of lasagna, baked penne, ravioli and more, plus salads, bread and gallons of tea.</p><a class="link" href="#catering">Plan a catering order</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section" id="catering" aria-labelledby="cater-title">
+  <div class="wrap">
+    <header class="section__head"><h2 class="h2" id="cater-title">Plan a catering order</h2><p class="lede">Add party pans, salads and drinks to see an estimate, then call us to place the order. Catering orders are subject to a catering charge.</p></header>
+    <div class="cater" data-cater>
+      <div><h3 class="cater__h">Party pans</h3><ul class="cater__list" role="list"><li class="cater__item" data-item="lasagna" data-name="Lasagna" data-price="39.00"><div class="cater__info"><span class="cater__name">Lasagna</span><span class="cater__meta">$39.00</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Lasagna">−</button><output>0</output><button type="button" data-inc aria-label="Add one Lasagna">+</button></div></li><li class="cater__item" data-item="penne" data-name="Baked Penne" data-price="35.00"><div class="cater__info"><span class="cater__name">Baked Penne</span><span class="cater__meta">$35.00</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Baked Penne">−</button><output>0</output><button type="button" data-inc aria-label="Add one Baked Penne">+</button></div><fieldset class="cater__sauce" data-sauce hidden><legend class="sr-only">Sauce for Baked Penne</legend><label><input type="radio" name="sauce-penne" value="meat sauce" checked> Meat sauce</label><label><input type="radio" name="sauce-penne" value="marinara"> Marinara</label></fieldset></li><li class="cater__item" data-item="spaghetti" data-name="Spaghetti" data-price="30.00"><div class="cater__info"><span class="cater__name">Spaghetti</span><span class="cater__meta">$30.00</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Spaghetti">−</button><output>0</output><button type="button" data-inc aria-label="Add one Spaghetti">+</button></div><fieldset class="cater__sauce" data-sauce hidden><legend class="sr-only">Sauce for Spaghetti</legend><label><input type="radio" name="sauce-spaghetti" value="meat sauce" checked> Meat sauce</label><label><input type="radio" name="sauce-spaghetti" value="marinara"> Marinara</label></fieldset></li><li class="cater__item" data-item="baked-spaghetti" data-name="Baked Spaghetti" data-price="35.00"><div class="cater__info"><span class="cater__name">Baked Spaghetti</span><span class="cater__meta">$35.00, topped with mozzarella</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Baked Spaghetti">−</button><output>0</output><button type="button" data-inc aria-label="Add one Baked Spaghetti">+</button></div></li><li class="cater__item" data-item="eggplant" data-name="Eggplant Parmesan" data-price="39.00"><div class="cater__info"><span class="cater__name">Eggplant Parmesan</span><span class="cater__meta">$39.00</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Eggplant Parmesan">−</button><output>0</output><button type="button" data-inc aria-label="Add one Eggplant Parmesan">+</button></div></li><li class="cater__item" data-item="meatballs" data-name="Meatballs in Sauce" data-price="29.00"><div class="cater__info"><span class="cater__name">Meatballs in Sauce</span><span class="cater__meta">$29.00, 15 whole meatballs</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Meatballs in Sauce">−</button><output>0</output><button type="button" data-inc aria-label="Add one Meatballs in Sauce">+</button></div></li><li class="cater__item" data-item="cheese-ravioli" data-name="Cheese Ravioli" data-price="41.54"><div class="cater__info"><span class="cater__name">Cheese Ravioli</span><span class="cater__meta">$41.54, 40 ravioli</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Cheese Ravioli">−</button><output>0</output><button type="button" data-inc aria-label="Add one Cheese Ravioli">+</button></div></li><li class="cater__item" data-item="meat-ravioli" data-name="Meat Ravioli" data-price="47.54"><div class="cater__info"><span class="cater__name">Meat Ravioli</span><span class="cater__meta">$47.54, 40 ravioli</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Meat Ravioli">−</button><output>0</output><button type="button" data-inc aria-label="Add one Meat Ravioli">+</button></div></li><li class="cater__item" data-item="shells" data-name="Stuffed Shells" data-price="41.54"><div class="cater__info"><span class="cater__name">Stuffed Shells</span><span class="cater__meta">$41.54, 20 shells</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Stuffed Shells">−</button><output>0</output><button type="button" data-inc aria-label="Add one Stuffed Shells">+</button></div></li><li class="cater__item" data-item="manicotti" data-name="Manicotti" data-price="47.54"><div class="cater__info"><span class="cater__name">Manicotti</span><span class="cater__meta">$47.54, 18 tubes</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Manicotti">−</button><output>0</output><button type="button" data-inc aria-label="Add one Manicotti">+</button></div></li><li class="cater__item" data-item="cannelloni" data-name="Meat Cannelloni" data-price="51.54"><div class="cater__info"><span class="cater__name">Meat Cannelloni</span><span class="cater__meta">$51.54</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Meat Cannelloni">−</button><output>0</output><button type="button" data-inc aria-label="Add one Meat Cannelloni">+</button></div></li></ul><h3 class="cater__h">Salads and bread</h3><ul class="cater__list" role="list"><li class="cater__item" data-item="antipasto" data-name="Antipasto Salad" data-price="35.00"><div class="cater__info"><span class="cater__name">Antipasto Salad</span><span class="cater__meta">$35.00</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Antipasto Salad">−</button><output>0</output><button type="button" data-inc aria-label="Add one Antipasto Salad">+</button></div></li><li class="cater__item" data-item="greek" data-name="Greek Salad" data-price="35.00"><div class="cater__info"><span class="cater__name">Greek Salad</span><span class="cater__meta">$35.00</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Greek Salad">−</button><output>0</output><button type="button" data-inc aria-label="Add one Greek Salad">+</button></div></li><li class="cater__item" data-item="pasta-salad" data-name="Italian Pasta Salad" data-price="25.00"><div class="cater__info"><span class="cater__name">Italian Pasta Salad</span><span class="cater__meta">$25.00</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Italian Pasta Salad">−</button><output>0</output><button type="button" data-inc aria-label="Add one Italian Pasta Salad">+</button></div></li><li class="cater__item" data-item="garden" data-name="Garden Salad" data-price="20.00"><div class="cater__info"><span class="cater__name">Garden Salad</span><span class="cater__meta">$20.00</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Garden Salad">−</button><output>0</output><button type="button" data-inc aria-label="Add one Garden Salad">+</button></div></li><li class="cater__item" data-item="garlic-bread" data-name="Garlic Bread" data-price="10.00"><div class="cater__info"><span class="cater__name">Garlic Bread</span><span class="cater__meta">$10.00</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Garlic Bread">−</button><output>0</output><button type="button" data-inc aria-label="Add one Garlic Bread">+</button></div></li><li class="cater__item" data-item="italian-bread" data-name="Italian Bread" data-price="5.00"><div class="cater__info"><span class="cater__name">Italian Bread</span><span class="cater__meta">$5.00</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Italian Bread">−</button><output>0</output><button type="button" data-inc aria-label="Add one Italian Bread">+</button></div></li></ul><h3 class="cater__h">Drinks</h3><ul class="cater__list" role="list"><li class="cater__item" data-item="gallon" data-name="Gallon of tea or soda" data-price="5.00"><div class="cater__info"><span class="cater__name">Gallon of tea or soda</span><span class="cater__meta">$5.00, serves 8 to 10 people</span></div><div class="stepper"><button type="button" data-dec aria-label="Remove one Gallon of tea or soda">−</button><output>0</output><button type="button" data-inc aria-label="Add one Gallon of tea or soda">+</button></div></li></ul></div>
+      <aside class="cater__summary" aria-labelledby="sum-title">
+        <h3 class="cater__h" id="sum-title">Your order</h3>
+        <ul class="cater__lines" role="list" data-lines></ul>
+        <p class="cater__empty" data-empty>Nothing added yet. Use the + buttons to add pans.</p>
+        <div class="cater__total" aria-live="polite"><span>Estimated subtotal</span><strong data-total>$0.00</strong></div>
+        <p class="cater__fine">Plus the catering charge. Prices can change, so we’ll confirm your total on the phone.</p>
+        <div class="cater__actions"><a class="btn btn--solid" href="tel:+18033419720">Call 803-341-9720 to order</a><button class="btn btn--ghost" type="button" data-clear>Clear order</button></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="visit" aria-labelledby="visit-title">
+  <div class="wrap">
+    <header class="section__head"><h2 class="h2" id="visit-title">Visit us</h2></header>
+    <div class="visit">
+      <div>
+        <div class="visit__block"><p class="visit__label">Address</p><p class="visit__big">336 Georgia Avenue, Suite 103<br>Jackson Square<br>North Augusta, SC 29841</p><p><a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Antonio%27s+Italian+Eatery+336+Georgia+Ave+North+Augusta+SC+29841" target="_blank" rel="noopener">Get directions in Google Maps</a></p></div>
+        <div class="visit__block"><p class="visit__label">Hours</p><table class="hours"><caption class="sr-only">Opening hours</caption><tbody><tr data-day="1"><th scope="row">Monday</th><td>11 am – 9 pm</td></tr><tr data-day="2"><th scope="row">Tuesday</th><td>11 am – 9 pm</td></tr><tr data-day="3"><th scope="row">Wednesday</th><td>11 am – 9 pm</td></tr><tr data-day="4"><th scope="row">Thursday</th><td>11 am – 9 pm</td></tr><tr data-day="5"><th scope="row">Friday</th><td>11 am – 10 pm</td></tr><tr data-day="6"><th scope="row">Saturday</th><td>12 pm – 9 pm</td></tr><tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr></tbody></table></div>
+        <div class="visit__block"><p class="visit__label">Phone</p><p class="visit__big"><a class="link" href="tel:+18033419720">803-341-9720</a></p></div>
+      </div>
+      <figure class="map-wrap"><svg class="map" viewBox="0 0 600 440" role="img" aria-labelledby="amap-title">
+  <title id="amap-title">Simple map: Antonio’s is on Georgia Avenue in North Augusta, just north of the Savannah River and the 13th Street bridge to Augusta, Georgia. Not to scale.</title>
+  <rect class="m-land" width="600" height="440"/>
+  <g class="m-block"><rect x="-20" y="4" width="46" height="30" rx="3"/><rect x="38" y="4" width="46" height="30" rx="3"/><rect x="96" y="4" width="46" height="30" rx="3"/><rect x="154" y="4" width="46" height="30" rx="3"/><rect x="212" y="4" width="46" height="30" rx="3"/><rect x="270" y="4" width="46" height="30" rx="3"/><rect x="328" y="4" width="46" height="30" rx="3"/><rect x="386" y="4" width="46" height="30" rx="3"/><rect x="444" y="4" width="46" height="30" rx="3"/><rect x="502" y="4" width="46" height="30" rx="3"/><rect x="560" y="4" width="46" height="30" rx="3"/><rect x="-20" y="46" width="46" height="30" rx="3"/><rect x="38" y="46" width="46" height="30" rx="3"/><rect x="96" y="46" width="46" height="30" rx="3"/><rect x="154" y="46" width="46" height="30" rx="3"/><rect x="212" y="46" width="46" height="30" rx="3"/><rect x="270" y="46" width="46" height="30" rx="3"/><rect x="328" y="46" width="46" height="30" rx="3"/><rect x="386" y="46" width="46" height="30" rx="3"/><rect x="444" y="46" width="46" height="30" rx="3"/><rect x="502" y="46" width="46" height="30" rx="3"/><rect x="560" y="46" width="46" height="30" rx="3"/><rect x="-20" y="88" width="46" height="30" rx="3"/><rect x="38" y="88" width="46" height="30" rx="3"/><rect x="96" y="88" width="46" height="30" rx="3"/><rect x="154" y="88" width="46" height="30" rx="3"/><rect x="212" y="88" width="46" height="30" rx="3"/><rect x="270" y="88" width="46" height="30" rx="3"/><rect x="328" y="88" width="46" height="30" rx="3"/><rect x="386" y="88" width="46" height="30" rx="3"/><rect x="444" y="88" width="46" height="30" rx="3"/><rect x="502" y="88" width="46" height="30" rx="3"/><rect x="560" y="88" width="46" height="30" rx="3"/><rect x="-20" y="130" width="46" height="30" rx="3"/><rect x="38" y="130" width="46" height="30" rx="3"/><rect x="96" y="130" width="46" height="30" rx="3"/><rect x="154" y="130" width="46" height="30" rx="3"/><rect x="212" y="130" width="46" height="30" rx="3"/><rect x="270" y="130" width="46" height="30" rx="3"/><rect x="328" y="130" width="46" height="30" rx="3"/><rect x="386" y="130" width="46" height="30" rx="3"/><rect x="444" y="130" width="46" height="30" rx="3"/><rect x="502" y="130" width="46" height="30" rx="3"/><rect x="560" y="130" width="46" height="30" rx="3"/><rect x="-20" y="172" width="46" height="30" rx="3"/><rect x="38" y="172" width="46" height="30" rx="3"/><rect x="96" y="172" width="46" height="30" rx="3"/><rect x="154" y="172" width="46" height="30" rx="3"/><rect x="212" y="172" width="46" height="30" rx="3"/><rect x="270" y="172" width="46" height="30" rx="3"/><rect x="328" y="172" width="46" height="30" rx="3"/><rect x="386" y="172" width="46" height="30" rx="3"/><rect x="444" y="172" width="46" height="30" rx="3"/><rect x="502" y="172" width="46" height="30" rx="3"/><rect x="560" y="172" width="46" height="30" rx="3"/><rect x="-20" y="214" width="46" height="30" rx="3"/><rect x="38" y="214" width="46" height="30" rx="3"/><rect x="96" y="214" width="46" height="30" rx="3"/><rect x="154" y="214" width="46" height="30" rx="3"/><rect x="212" y="214" width="46" height="30" rx="3"/><rect x="270" y="214" width="46" height="30" rx="3"/><rect x="328" y="214" width="46" height="30" rx="3"/><rect x="386" y="214" width="46" height="30" rx="3"/><rect x="444" y="214" width="46" height="30" rx="3"/><rect x="502" y="214" width="46" height="30" rx="3"/><rect x="560" y="214" width="46" height="30" rx="3"/><rect x="-20" y="256" width="46" height="30" rx="3"/><rect x="38" y="256" width="46" height="30" rx="3"/><rect x="96" y="256" width="46" height="30" rx="3"/><rect x="154" y="256" width="46" height="30" rx="3"/><rect x="212" y="256" width="46" height="30" rx="3"/><rect x="270" y="256" width="46" height="30" rx="3"/><rect x="328" y="256" width="46" height="30" rx="3"/><rect x="386" y="256" width="46" height="30" rx="3"/><rect x="444" y="256" width="46" height="30" rx="3"/><rect x="502" y="256" width="46" height="30" rx="3"/><rect x="560" y="256" width="46" height="30" rx="3"/><rect x="-20" y="298" width="46" height="30" rx="3"/><rect x="38" y="298" width="46" height="30" rx="3"/><rect x="96" y="298" width="46" height="30" rx="3"/><rect x="154" y="298" width="46" height="30" rx="3"/><rect x="212" y="298" width="46" height="30" rx="3"/><rect x="270" y="298" width="46" height="30" rx="3"/><rect x="328" y="298" width="46" height="30" rx="3"/><rect x="386" y="298" width="46" height="30" rx="3"/><rect x="444" y="298" width="46" height="30" rx="3"/><rect x="502" y="298" width="46" height="30" rx="3"/><rect x="560" y="298" width="46" height="30" rx="3"/></g>
+  <path class="m-road" stroke-width="12" d="M-10 150C200 154 420 160 610 166"/>
+  <path class="m-road" stroke-width="11" d="M-10 420L610 410"/>
+  <path class="m-water" d="M0 322C120 304 214 342 322 334S524 300 600 318V376C504 360 422 388 322 392S118 360 0 376Z"/>
+  <path class="m-road" stroke-width="16" d="M318 -10C324 110 312 220 318 336"/>
+  <path class="m-road" stroke-width="12" d="M318 330L310 450"/>
+  <text class="m-label" transform="translate(338 36) rotate(90)">Georgia Ave</text>
+  <text class="m-label" x="20" y="136">W. Buena Vista Ave</text>
+  <text class="m-label" x="444" y="146">E. Buena Vista Ave</text>
+  <text class="m-label" x="20" y="404">Broad St</text>
+  <text class="m-label" x="330" y="402">13th St</text>
+  <text class="m-label m-label--soft" x="40" y="352">Savannah River</text>
+  <text class="m-label m-label--soft" x="440" y="296">North Augusta, SC</text>
+  <text class="m-label m-label--soft" x="470" y="436">Augusta, GA</text>
+  <g transform="translate(318 216)"><circle class="m-pin-halo" r="24"/><circle class="m-pin-dot" r="9"/></g>
+  <text class="m-pin-label" x="346" y="212">Antonio’s</text>
+  <text class="m-label" x="346" y="232">Jackson Square</text>
+</svg><figcaption><span>Map not to scale.</span><a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Antonio%27s+Italian+Eatery+336+Georgia+Ave+North+Augusta+SC+29841" target="_blank" rel="noopener">Open in Google Maps</a></figcaption></figure>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="footer night">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div><p class="footer__brand">Antonio’s</p><p class="footer__lead">Pizza, pasta, subs and party pans at Jackson Square on Georgia Avenue, North Augusta.</p></div>
+      <div><h2>Hours</h2><ul class="footer__links" role="list"><li>Monday to Thursday, 11 am to 9 pm</li><li>Friday, 11 am to 10 pm</li><li>Saturday, noon to 9 pm</li><li>Sunday, closed</li></ul></div>
+      <div><h2>Get in touch</h2><ul class="footer__links" role="list"><li><a href="tel:+18033419720">803-341-9720</a></li><li><a href="https://www.facebook.com/AntoniosItalianEatery/" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.instagram.com/antoniositalianeatery/" target="_blank" rel="noopener">Instagram</a></li><li><a href="#catering">Catering</a></li></ul></div>
+    </div>
+    <div class="footer__base"><span>© 2026 Antonio’s Italian Eatery, North Augusta, SC</span><span>Menu prices and hours can change. Call to confirm.</span></div>
+  </div>
+</footer>
+<script>window.SITE={"tz": "America/New_York", "clock": "12", "hours": [null, [660, 1260], [660, 1260], [660, 1260], [660, 1260], [660, 1320], [720, 1260]], "text": {"open": "Open now until {t}.", "later": "Closed right now. We open today at {t}.", "next": "Closed right now. We open {d} at {t}."}, "story": {"cheese": "shredded", "pepperoni": true, "heat": true, "strings": true, "steam": true, "glow": "#FF8A3D", "seed": 21, "rotate": 4, "liftDist": 72, "timeline": {"ball": [0, 0.3], "toss": [0.2, 0.95], "dust": [0, 1.25], "sauce": [1.04, 1.85], "cheese": [2.03, 2.85], "toppings": [3.03, 3.72], "bake": [4.03, 4.88], "heat": [3.85, 5.15], "cut": [5.03, 5.32], "lift": [5.32, 5.9]}}};</script>
+<script>
+(function () {
+  'use strict';
+  var S = window.SITE || {};
+  var d = document, root = d.documentElement;
+  root.classList.add('js');
+  var reduce = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+  var NS = 'http://www.w3.org/2000/svg', XL = 'http://www.w3.org/1999/xlink';
+
+  function $(s, c) { return (c || d).querySelector(s); }
+  function $$(s, c) { return Array.prototype.slice.call((c || d).querySelectorAll(s)); }
+  function clamp(v, a, b) { a = a === undefined ? 0 : a; b = b === undefined ? 1 : b; return v < a ? a : v > b ? b : v; }
+  function lerp(a, b, t) { return a + (b - a) * t; }
+  function segAB(t, a, b) { return clamp((t - a) / (b - a)); }
+  function seg(t, w) { return w ? segAB(t, w[0], w[1]) : 0; }
+  function ease(t) { return t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; }
+  function easeOut(t) { return 1 - Math.pow(1 - t, 3); }
+  function backOut(t) { var c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(t - 1, 3) + c1 * Math.pow(t - 1, 2); }
+  function bump(t, w, e) { if (!w) return 0; e = e || .25; var s = (w[1] - w[0]) * e; return Math.min(segAB(t, w[0], w[0] + s), 1 - segAB(t, w[1] - s, w[1])); }
+  function rng(seed) { return function () { seed |= 0; seed = seed + 0x6D2B79F5 | 0; var t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+  function f(n) { return Math.round(n * 100) / 100; }
+  function el(tag, attrs, parent) { var e = d.createElementNS(NS, tag); if (attrs) { for (var k in attrs) { if (Object.prototype.hasOwnProperty.call(attrs, k)) e.setAttribute(k, attrs[k]); } } if (parent) parent.appendChild(e); return e; }
+  function A(e, k, v) { var key = '_' + k; if (e[key] !== v) { e[key] = v; e.setAttribute(k, v); } }
+  function op(e, v) { A(e, 'opacity', f(clamp(v))); }
+  function stops(g, list) { list.forEach(function (s) { el('stop', { offset: s[0], 'stop-color': s[1], 'stop-opacity': s[2] === undefined ? 1 : s[2] }, g); }); return g; }
+  function blob(cx, cy, r, jit, n, rnd) {
+    var pts = [], i;
+    for (i = 0; i < n; i++) { var a = i / n * Math.PI * 2, rr = r * (1 + (rnd() - .5) * jit); pts.push([cx + Math.cos(a) * rr, cy + Math.sin(a) * rr]); }
+    var s = 'M' + f(pts[0][0]) + ' ' + f(pts[0][1]);
+    for (i = 0; i < n; i++) {
+      var p0 = pts[(i - 1 + n) % n], p1 = pts[i], p2 = pts[(i + 1) % n], p3 = pts[(i + 2) % n];
+      s += 'C' + f(p1[0] + (p2[0] - p0[0]) / 6) + ' ' + f(p1[1] + (p2[1] - p0[1]) / 6) + ' ' + f(p2[0] - (p3[0] - p1[0]) / 6) + ' ' + f(p2[1] - (p3[1] - p1[1]) / 6) + ' ' + f(p2[0]) + ' ' + f(p2[1]);
+    }
+    return s + 'Z';
+  }
+  function flamePath(w, h) { return 'M0 0C' + f(-w) + ' ' + f(-h * .35) + ' ' + f(-w * .25) + ' ' + f(-h * .72) + ' 0 ' + f(-h) + 'C' + f(w * .25) + ' ' + f(-h * .72) + ' ' + f(w) + ' ' + f(-h * .35) + ' 0 0Z'; }
+  var EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+
+  /* ---------- nav ---------- */
+  function nav() {
+    var n = $('[data-nav]'); if (!n) return;
+    var toggle = $('[data-nav-toggle]', n);
+    function onScroll() { n.classList.toggle('is-scrolled', window.scrollY > 24); }
+    onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+    if (!toggle) return;
+    function set(open) { d.body.classList.toggle('nav-open', open); toggle.setAttribute('aria-expanded', open ? 'true' : 'false'); toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu'); }
+    toggle.addEventListener('click', function () { set(!d.body.classList.contains('nav-open')); });
+    $$('.nav__links a', n).forEach(function (a) { a.addEventListener('click', function () { set(false); }); });
+    d.addEventListener('keydown', function (e) { if (e.key === 'Escape' && d.body.classList.contains('nav-open')) { set(false); toggle.focus(); } });
+    window.addEventListener('resize', function () { if (window.innerWidth > 880) set(false); });
+  }
+
+  /* ---------- live hours ---------- */
+  var DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  function zoned(tz) {
+    try {
+      var parts = {};
+      new Intl.DateTimeFormat('en-US', { timeZone: tz, weekday: 'short', hour: 'numeric', minute: 'numeric', hourCycle: 'h23' }).formatToParts(new Date()).forEach(function (p) { parts[p.type] = p.value; });
+      var map = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 }, h = parseInt(parts.hour, 10) % 24, m = parseInt(parts.minute, 10);
+      if (map[parts.weekday] === undefined || isNaN(h) || isNaN(m)) throw new Error('tz');
+      return { day: map[parts.weekday], min: h * 60 + m };
+    } catch (e) { var n = new Date(); return { day: n.getDay(), min: n.getHours() * 60 + n.getMinutes() }; }
+  }
+  function clock(min) {
+    min = ((min % 1440) + 1440) % 1440;
+    var h = Math.floor(min / 60), m = min % 60, mm = (m < 10 ? '0' : '') + m;
+    if (S.clock === '24') return (h < 10 ? '0' : '') + h + ':' + mm;
+    if (min === 0) return 'midnight';
+    if (min === 720) return 'noon';
+    return (h % 12 || 12) + (m ? ':' + mm : '') + ' ' + (h < 12 ? 'am' : 'pm');
+  }
+  function tpl(s, o) { return String(s || '').replace(/\{(\w+)\}/g, function (_, k) { return o[k] !== undefined ? o[k] : ''; }); }
+  function hours() {
+    var H = S.hours; if (!H) return;
+    var now = zoned(S.tz), today = H[now.day], T = S.text || {}, msg = '';
+    var isOpen = !!(today && now.min >= today[0] && now.min < today[1]);
+    if (isOpen) msg = tpl(T.open, { t: today[1] >= 1440 ? 'midnight' : clock(today[1]) });
+    else if (today && now.min < today[0]) msg = tpl(T.later, { t: clock(today[0]) });
+    else { for (var k = 1; k <= 7; k++) { var dd = (now.day + k) % 7; if (H[dd]) { msg = tpl(T.next, { d: k === 1 ? 'tomorrow' : DAYS[dd], t: clock(H[dd][0]) }); break; } } }
+    var prefix = T.now ? tpl(T.now, { now: clock(now.min) }) + ' ' : '';
+    $$('[data-status]').forEach(function (e) { e.textContent = prefix + msg; });
+    $$('[data-open-sign]').forEach(function (e) {
+      e.classList.toggle('is-open', isOpen); e.classList.toggle('is-closed', !isOpen);
+      var w = $('[data-open-word]', e); if (w) w.textContent = isOpen ? 'Open' : 'Closed';
+    });
+    $$('[data-day]').forEach(function (r) { var on = +r.getAttribute('data-day') === now.day; r.classList.toggle('is-today', on); if (on) r.setAttribute('aria-current', 'date'); else r.removeAttribute('aria-current'); });
+  }
+
+  /* ---------- oven hero ---------- */
+  function oven() {
+    var svg = $('[data-oven]'); if (!svg) return;
+    var rnd = rng(11), tiles = $('[data-tiles]', svg), cols = ['#C9973F', '#E3BA66', '#A97B2D', '#F1D08A', '#8D6326', '#D8AA52'];
+    function arc(cx, cy, rx, ry, step) {
+      var N = 700, pts = [], lens = [], total = 0, out = [], i;
+      for (i = 0; i <= N; i++) { var th = Math.PI * (1 + i / N), x = cx + rx * Math.cos(th), y = cy + ry * Math.sin(th); if (i) total += Math.hypot(x - pts[i - 1][0], y - pts[i - 1][1]); pts.push([x, y, th]); lens.push(total); }
+      var count = Math.floor(total / step), off = (total - count * step) / 2, j = 0;
+      for (var k = 0; k <= count; k++) { var target = off + k * step; while (j < N && lens[j + 1] < target) j++; var p = pts[j]; out.push([p[0], p[1], Math.atan2(ry * Math.cos(p[2]), -rx * Math.sin(p[2])) * 180 / Math.PI]); }
+      return out;
+    }
+    [[470, 426], [348, 308]].forEach(function (r) {
+      arc(600, 520, r[0], r[1], 17).forEach(function (p) {
+        var t = el('rect', { x: -6, y: -6, width: 12, height: 12, rx: 1.5, transform: 'translate(' + f(p[0]) + ' ' + f(p[1]) + ') rotate(' + f(p[2]) + ')', fill: cols[Math.floor(rnd() * cols.length)], 'class': 'tile' }, tiles);
+        t.style.setProperty('--i', Math.round(p[0] / 12));
+        t.style.setProperty('--o', f(.5 + rnd() * .5));
+      });
+    });
+    var fl = $('[data-flames]', svg);
+    for (var i = 0; i < 9; i++) {
+      var g = el('g', { transform: 'translate(' + f(452 + i * 37 + (rnd() - .5) * 14) + ' 762)' }, fl);
+      var p = el('path', { d: flamePath(20 + rnd() * 18, 90 + rnd() * 120), fill: 'url(#ov-flame)', 'class': 'flame' }, g);
+      p.style.setProperty('--dur', f(1 + rnd() * 1.1) + 's'); p.style.setProperty('--del', f(-rnd() * 2) + 's');
+    }
+    var arch = $('[data-arch]', svg), n = 15;
+    function P(rx, ry, th) { return f(600 + rx * Math.cos(th)) + ' ' + f(640 + ry * Math.sin(th)); }
+    for (i = 0; i < n; i++) {
+      var s0 = Math.PI * (1 + i / n) + .012, s1 = Math.PI * (1 + (i + 1) / n) - .012;
+      el('path', { d: 'M' + P(184, 154, s0) + 'L' + P(228, 196, s0) + 'A228 196 0 0 1 ' + P(228, 196, s1) + 'L' + P(184, 154, s1) + 'A184 154 0 0 0 ' + P(184, 154, s0) + 'Z', fill: i % 2 ? '#2A1911' : '#23140D', stroke: '#0C0704', 'stroke-width': 2 }, arch);
+    }
+    [372, 784].forEach(function (x) { for (var k = 0; k < 3; k++) el('rect', { x: x, y: 642 + k * 40, width: 44, height: 37, fill: k % 2 ? '#23140D' : '#2A1911', stroke: '#0C0704', 'stroke-width': 2 }, arch); });
+    el('path', { d: 'M416 762V640A184 154 0 0 1 784 640V762', fill: 'none', stroke: '#FF9A4A', 'stroke-opacity': '.5', 'stroke-width': 3 }, arch);
+    embers(svg);
+  }
+
+  function embers(svg) {
+    var c = $('[data-embers]'); if (!c || reduce || !c.getContext) return;
+    var hero = c.parentElement, ctx = c.getContext('2d'), W = 0, H = 0, parts = [], raf = 0, running = false, mx0 = 0, mx1 = 0, my = 0;
+    var sprite = d.createElement('canvas'); sprite.width = sprite.height = 32;
+    var sg = sprite.getContext('2d'), grd = sg.createRadialGradient(16, 16, 0, 16, 16, 16);
+    grd.addColorStop(0, 'rgba(255,244,210,1)'); grd.addColorStop(.25, 'rgba(255,196,96,.9)'); grd.addColorStop(.6, 'rgba(255,112,32,.22)'); grd.addColorStop(1, 'rgba(255,90,20,0)');
+    sg.fillStyle = grd; sg.fillRect(0, 0, 32, 32);
+    function measure() {
+      var hr = hero.getBoundingClientRect(), orc = svg.getBoundingClientRect(), dpr = Math.min(2, window.devicePixelRatio || 1), s = orc.width / 1200;
+      W = hr.width; H = hr.height; c.width = Math.round(W * dpr); c.height = Math.round(H * dpr); ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      mx0 = orc.left - hr.left + 450 * s; mx1 = orc.left - hr.left + 750 * s; my = orc.top - hr.top + 650 * s;
+      var want = W < 700 ? 34 : 64; while (parts.length < want) parts.push(spawn({}, true)); parts.length = want;
+    }
+    function spawn(p, scatter) {
+      p.x = mx0 + Math.random() * (mx1 - mx0); p.y = my + Math.random() * 30; p.vx = (Math.random() - .5) * .5; p.vy = -(.45 + Math.random() * 1.25);
+      p.max = 160 + Math.random() * 260; p.life = scatter ? Math.random() * p.max : 0; p.size = 3 + Math.random() * 10; p.w = Math.random() * 6.28;
+      if (scatter) { p.x += p.vx * p.life; p.y += p.vy * p.life; }
+      return p;
+    }
+    function tick() {
+      ctx.clearRect(0, 0, W, H); ctx.globalCompositeOperation = 'lighter';
+      for (var i = 0; i < parts.length; i++) {
+        var p = parts[i]; p.life++; p.w += .035; p.x += p.vx + Math.sin(p.w) * .35; p.y += p.vy;
+        var lr = p.life / p.max, a = Math.min(1, lr * 6) * (1 - lr);
+        if (a > 0) { ctx.globalAlpha = a; ctx.drawImage(sprite, p.x - p.size / 2, p.y - p.size / 2, p.size, p.size); }
+        if (p.life > p.max || p.y < -30) spawn(p, false);
+      }
+      ctx.globalAlpha = 1; raf = requestAnimationFrame(tick);
+    }
+    function start() { if (!running) { running = true; raf = requestAnimationFrame(tick); } }
+    function stop() { running = false; cancelAnimationFrame(raf); }
+    measure(); window.addEventListener('resize', measure);
+    if ('IntersectionObserver' in window) new IntersectionObserver(function (en) { if (en[0].isIntersecting && !d.hidden) start(); else stop(); }).observe(hero); else start();
+    d.addEventListener('visibilitychange', function () { if (d.hidden) stop(); else if (hero.getBoundingClientRect().bottom > 0) start(); });
+  }
+
+  /* ---------- story: the scroll-built pizza ---------- */
+  function story() {
+    var sec = $('[data-story]'); if (!sec) return;
+    var svg = $('[data-pizza]', sec), chapters = $$('.chapter', sec), rail = $$('.story__rail li', sec), bar = $('.story__bar span', sec);
+    var N = chapters.length, C = S.story || {}, T = C.timeline || {}, cx = 300, cy = 300, R = 232, rnd = rng(C.seed || 5), i, a, rr;
+    var defs = el('defs', null, svg);
+    function radial(id, list, at) { var g = el('radialGradient', at || {}, defs); g.setAttribute('id', id); return stops(g, list); }
+    function linear(id, list, at) { var g = el('linearGradient', at || {}, defs); g.setAttribute('id', id); return stops(g, list); }
+    var glowCol = C.glow || '#FF7A2F';
+    radial('pz-glow', [[0, glowCol, .5], [.45, glowCol, .15], [1, glowCol, 0]]);
+    radial('pz-ball', [[0, '#FFF8E8'], [.55, '#EBD3A5'], [1, '#C29663']], { fx: '.36', fy: '.3' });
+    radial('pz-disc', [[0, '#F2E1BE'], [.76, '#ECD2A3'], [.88, '#E6C185'], [.95, '#D29C5B'], [1, '#A7703A']]);
+    radial('pz-toast', [[0, '#9B5A26', 0], [.8, '#9B5A26', 0], [.9, '#A8652D', .6], [1, '#4E2810', .95]]);
+    radial('pz-sauce', [[0, '#C9402A'], [.7, '#AE2F1B'], [1, '#86210F']]);
+    radial('pz-cheese', [[0, '#FFFDF7'], [.65, '#F7EFDD'], [1, '#E4D3AE']], { fx: '.4', fy: '.36' });
+    radial('pz-melt', [[0, '#FBF1D3'], [.8, '#F3DEA7'], [1, '#E8C47F']]);
+    linear('pz-basil', [[0, '#5AA84F'], [1, '#1F5E2A']], { x1: '0', y1: '0', x2: '1', y2: '1' });
+    radial('pz-pep', [[0, '#D5503A'], [.72, '#B7331F'], [1, '#8C2113']]);
+    linear('pz-gold', [[0, '#FFF3C4'], [.4, '#F0C55C'], [.7, '#C38A2A'], [1, '#FFE7A0']], { x1: '0', y1: '0', x2: '1', y2: '1' });
+    linear('pz-flame', [[0, '#FF5A14'], [.55, '#FFA43B'], [1, '#FFE3A0', 0]], { x1: '0', y1: '1', x2: '0', y2: '0' });
+    var blur = el('filter', { x: '-20%', y: '-300%', width: '140%', height: '700%' }, defs); blur.setAttribute('id', 'pz-blur'); el('feGaussianBlur', { stdDeviation: 7 }, blur);
+    var soft = el('filter', { x: '-50%', y: '-50%', width: '200%', height: '200%' }, defs); soft.setAttribute('id', 'pz-soft'); el('feGaussianBlur', { stdDeviation: 9 }, soft);
+
+    var csp = el('clipPath', null, defs); csp.setAttribute('id', 'pz-cs'); var sauceClip = el('circle', { cx: cx, cy: cy, r: 0 }, csp);
+    var a1 = -67.5 * Math.PI / 180, a2 = -22.5 * Math.PI / 180, bis = -45 * Math.PI / 180, WR = 300;
+    var wedge = 'M' + cx + ' ' + cy + 'L' + f(cx + WR * Math.cos(a1)) + ' ' + f(cy + WR * Math.sin(a1)) + 'A' + WR + ' ' + WR + ' 0 0 1 ' + f(cx + WR * Math.cos(a2)) + ' ' + f(cy + WR * Math.sin(a2)) + 'Z';
+    var cw = el('clipPath', null, defs); cw.setAttribute('id', 'pz-cw'); el('path', { d: wedge }, cw);
+    var mk = el('mask', { maskUnits: 'userSpaceOnUse', x: -150, y: -150, width: 900, height: 900 }, defs); mk.setAttribute('id', 'pz-mk');
+    el('rect', { x: -150, y: -150, width: 900, height: 900, fill: '#fff' }, mk);
+    var mkWedge = el('path', { d: wedge, fill: '#000', opacity: 0 }, mk);
+
+    var art = el('g', null, defs); art.setAttribute('id', 'pz-art');
+    var ball = el('circle', { cx: cx, cy: cy, r: 70, fill: 'url(#pz-ball)' }, art);
+    var disc = el('circle', { cx: cx, cy: cy, r: 90, fill: 'url(#pz-disc)', opacity: 0 }, art);
+    var toast = el('circle', { cx: cx, cy: cy, r: R, fill: 'url(#pz-toast)', opacity: 0 }, art);
+    var spots = [], spotG = el('g', null, art);
+    for (i = 0; i < 40; i++) {
+      a = rnd() * Math.PI * 2; rr = R * (.86 + rnd() * .11); var sx = cx + rr * Math.cos(a), sy = cy + rr * Math.sin(a), ss = 2.5 + rnd() * 6;
+      spots.push({ e: el('ellipse', { cx: f(sx), cy: f(sy), rx: f(ss), ry: f(ss * (.45 + rnd() * .5)), transform: 'rotate(' + f(a * 180 / Math.PI) + ' ' + f(sx) + ' ' + f(sy) + ')', fill: '#2E1406', opacity: 0 }, spotG), th: rnd() });
+    }
+    var sauceG = el('g', { 'clip-path': 'url(#pz-cs)' }, art);
+    el('path', { d: blob(cx, cy, R * .845, .035, 56, rnd), fill: 'url(#pz-sauce)' }, sauceG);
+    for (i = 0; i < 90; i++) { a = rnd() * 6.2832; rr = Math.sqrt(rnd()) * R * .8; el('circle', { cx: f(cx + rr * Math.cos(a)), cy: f(cy + rr * Math.sin(a)), r: f(.7 + rnd() * 1.8), fill: rnd() < .55 ? '#7A1C0D' : '#DE6247', opacity: f(.35 + rnd() * .4) }, sauceG); }
+    var sauceBake = el('circle', { cx: cx, cy: cy, r: f(R * .86), fill: '#5A1408', opacity: 0 }, sauceG);
+
+    var cheese = [], shreds = [], melt = null, meltSpots = [], cheeseG = el('g', null, art);
+    if (C.cheese === 'shredded') {
+      melt = el('path', { d: blob(cx, cy, R * .8, .12, 20, rnd), fill: 'url(#pz-melt)', opacity: 0 }, cheeseG);
+      for (i = 0; i < 26; i++) { a = rnd() * 6.2832; rr = Math.sqrt(rnd()) * R * .72; var ms = 4 + rnd() * 9; meltSpots.push({ e: el('ellipse', { cx: f(cx + rr * Math.cos(a)), cy: f(cy + rr * Math.sin(a)), rx: f(ms), ry: f(ms * .7), fill: '#C7873A', opacity: 0 }, cheeseG), th: rnd() }); }
+      for (i = 0; i < 160; i++) {
+        a = rnd() * 6.2832; rr = Math.sqrt(rnd()) * R * .78; var w = 3 + rnd() * 1.6, h = 9 + rnd() * 10;
+        shreds.push({ e: el('rect', { x: f(-w / 2), y: f(-h / 2), width: f(w), height: f(h), rx: f(w / 2), fill: rnd() < .5 ? '#FFF8E6' : '#F7E9C4', transform: 'translate(' + f(cx + rr * Math.cos(a)) + ' ' + f(cy + rr * Math.sin(a)) + ') rotate(' + f(rnd() * 180) + ')', opacity: 0 }, cheeseG), th: rnd() });
+      }
+    } else {
+      var spotsXY = [[(rnd() - .5) * 24, (rnd() - .5) * 24]];
+      for (i = 0; i < 8; i++) { a = i / 8 * 6.2832 + (rnd() - .5) * .35; rr = 112 + rnd() * 34; spotsXY.push([rr * Math.cos(a), rr * Math.sin(a)]); }
+      spotsXY.forEach(function (p) {
+        var br = 30 + rnd() * 11, g = el('g', { opacity: 0 }, cheeseG);
+        el('path', { d: blob(0, 0, br, .36, 9, rnd), fill: 'url(#pz-cheese)' }, g);
+        var bl = el('g', { opacity: 0 }, g);
+        for (var q = 0; q < 3; q++) el('ellipse', { cx: f((rnd() - .5) * br), cy: f((rnd() - .5) * br), rx: f(3 + rnd() * 5), ry: f(2 + rnd() * 3), fill: '#D9A45C', opacity: '.7' }, bl);
+        cheese.push({ g: g, bl: bl, x: cx + p[0], y: cy + p[1] });
+      });
+    }
+    var basil = [];
+    if (C.basil) {
+      var basilG = el('g', null, art);
+      [[-44, -72, 20], [86, -22, 110], [-98, 44, -40], [34, 96, 70], [-10, 8, 160]].forEach(function (b) {
+        var g = el('g', { opacity: 0 }, basilG);
+        el('path', { d: 'M0 -26C16 -14 16 14 0 28C-16 14 -16 -14 0 -26Z', fill: 'url(#pz-basil)' }, g);
+        el('path', { d: 'M0 -21V23', stroke: 'rgba(230,255,220,.3)', 'stroke-width': 1.4, fill: 'none' }, g);
+        basil.push({ g: g, x: cx + b[0], y: cy + b[1], a: b[2] });
+      });
+    }
+    var peps = [];
+    if (C.pepperoni) {
+      var pepG = el('g', null, art), PP = [[0, 0]];
+      for (i = 0; i < 5; i++) { a = i / 5 * 6.2832 + .3; PP.push([74 * Math.cos(a), 74 * Math.sin(a)]); }
+      for (i = 0; i < 9; i++) { a = i / 9 * 6.2832 + .15; PP.push([148 * Math.cos(a), 148 * Math.sin(a)]); }
+      PP.forEach(function (p) {
+        var r = 21 + rnd() * 4, g = el('g', { opacity: 0 }, pepG);
+        el('circle', { cx: 0, cy: 0, r: f(r), fill: 'url(#pz-pep)' }, g);
+        for (var q = 0; q < 6; q++) { var aa = rnd() * 6.28, r2 = rnd() * r * .7; el('circle', { cx: f(r2 * Math.cos(aa)), cy: f(r2 * Math.sin(aa)), r: f(.8 + rnd() * 1.6), fill: '#F3B7A0', opacity: '.45' }, g); }
+        var edge = el('circle', { cx: 0, cy: 0, r: f(r - 1.5), fill: 'none', stroke: '#4A0F06', 'stroke-width': 3, opacity: 0 }, g);
+        var shine = el('ellipse', { cx: f(-r * .25), cy: f(-r * .3), rx: f(r * .35), ry: f(r * .18), fill: '#FFD9C4', opacity: 0 }, g);
+        peps.push({ g: g, x: cx + p[0] + (rnd() - .5) * 12, y: cy + p[1] + (rnd() - .5) * 12, edge: edge, shine: shine });
+      });
+    }
+    var golds = [];
+    if (C.gold) {
+      var goldG = el('g', null, art);
+      for (i = 0; i < 11; i++) {
+        a = rnd() * 6.2832; rr = Math.sqrt(rnd()) * 72; var nPts = 5 + Math.floor(rnd() * 3), gs = 6 + rnd() * 9, pts = [];
+        for (var q = 0; q < nPts; q++) { var ga = q / nPts * 6.2832 + rnd() * .5, gr = gs * (.55 + rnd() * .6); pts.push(f(gr * Math.cos(ga)) + ',' + f(gr * Math.sin(ga))); }
+        var gg = el('g', { opacity: 0 }, goldG); el('polygon', { points: pts.join(' '), fill: 'url(#pz-gold)' }, gg);
+        golds.push({ g: gg, x: cx + rr * Math.cos(a), y: cy + rr * Math.sin(a), r0: rnd() * 180 });
+      }
+    }
+    var cuts = [], cutG = el('g', null, art), CL = R + 4;
+    for (i = 0; i < 8; i++) { a = (-67.5 + 45 * i) * Math.PI / 180; cuts.push(el('line', { x1: cx, y1: cy, x2: f(cx + CL * Math.cos(a)), y2: f(cy + CL * Math.sin(a)), stroke: 'rgba(58,24,8,.55)', 'stroke-width': 2.2, 'stroke-linecap': 'round', 'stroke-dasharray': CL, 'stroke-dashoffset': CL, opacity: 0 }, cutG)); }
+
+    // stage layers
+    var glow = el('circle', { cx: cx, cy: cy, r: 300, fill: 'url(#pz-glow)', opacity: .3 }, svg);
+    var heat = null, flameG = null, ring = null, ringG = null, RC = 2 * Math.PI * 150;
+    if (C.heat) {
+      heat = el('g', { opacity: 0 }, svg);
+      [14, 576].forEach(function (y) { el('rect', { x: 50, y: y, width: 500, height: 10, rx: 5, fill: '#FF5A1F', filter: 'url(#pz-blur)' }, heat); el('rect', { x: 80, y: y + 3, width: 440, height: 4, rx: 2, fill: '#FFC27A' }, heat); });
+    }
+    if (C.flames) {
+      flameG = el('g', { opacity: 0 }, svg);
+      for (i = 0; i < 12; i++) {
+        var th = -165 + i * 13 + (rnd() - .5) * 6, fg = el('g', { transform: 'translate(' + cx + ' ' + cy + ') rotate(' + f(th) + ') translate(0 ' + (-(R - 10)) + ')' }, flameG);
+        var fp = el('path', { d: flamePath(12 + rnd() * 10, 38 + rnd() * 62), fill: 'url(#pz-flame)', 'class': 'st-flame' }, fg);
+        fp.style.setProperty('--dur', f(.9 + rnd() * .9) + 's'); fp.style.setProperty('--del', f(-rnd() * 2) + 's');
+      }
+    }
+    if (T.ring) {
+      ringG = el('g', { opacity: 0 }, svg);
+      el('circle', { cx: cx, cy: cy, r: 150, fill: 'none', stroke: 'rgba(242,232,214,.12)', 'stroke-width': 2 }, ringG);
+      ring = el('circle', { cx: cx, cy: cy, r: 150, fill: 'none', stroke: C.accent || '#D9A84E', 'stroke-width': 2.5, 'stroke-linecap': 'round', 'stroke-dasharray': f(RC), 'stroke-dashoffset': f(RC), transform: 'rotate(-90 300 300)' }, ringG);
+      for (i = 0; i < 12; i++) { a = i / 12 * 6.2832; el('line', { x1: f(cx + 162 * Math.cos(a)), y1: f(cy + 162 * Math.sin(a)), x2: f(cx + 170 * Math.cos(a)), y2: f(cy + 170 * Math.sin(a)), stroke: 'rgba(242,232,214,.35)', 'stroke-width': 1.5 }, ringG); }
+    }
+    var spin = el('g', null, svg);
+    function use(attrs) { var u = el('use', attrs, spin); u.setAttribute('href', '#pz-art'); u.setAttributeNS(XL, 'xlink:href', '#pz-art'); return u; }
+    use({ mask: 'url(#pz-mk)' });
+    var sliceShadow = el('path', { d: 'M' + cx + ' ' + cy + 'L' + f(cx + R * Math.cos(a1)) + ' ' + f(cy + R * Math.sin(a1)) + 'A' + R + ' ' + R + ' 0 0 1 ' + f(cx + R * Math.cos(a2)) + ' ' + f(cy + R * Math.sin(a2)) + 'Z', fill: '#000', opacity: 0, filter: 'url(#pz-soft)' }, spin);
+    var slice = use({ 'clip-path': 'url(#pz-cw)', opacity: 0 });
+    var strings = [];
+    if (C.strings) { var sgp = el('g', null, spin); for (i = 0; i < 4; i++) strings.push(el('path', { fill: 'none', stroke: '#F8E7B8', 'stroke-linecap': 'round', opacity: 0 }, sgp)); }
+    var dust = el('g', { opacity: 0 }, svg);
+    for (i = 0; i < 46; i++) { a = rnd() * 6.2832; rr = 60 + rnd() * 230; el('circle', { cx: f(cx + rr * Math.cos(a)), cy: f(cy + rr * Math.sin(a)), r: f(.6 + rnd() * 1.8), fill: '#F6ECD6', opacity: f(.25 + rnd() * .6) }, dust); }
+    var sparkles = [], steam = [];
+    if (C.gold) {
+      var spk = el('g', null, svg);
+      [[248, 246], [362, 282], [300, 352], [214, 330], [346, 212]].forEach(function (p, j) { var g = el('g', { transform: 'translate(' + p[0] + ' ' + p[1] + ')', opacity: 0 }, spk); var sp = el('path', { d: 'M0 -9L2 -2L9 0L2 2L0 9L-2 2L-9 0L-2 -2Z', fill: '#FFF1BE', 'class': 'sparkle' }, g); sp.style.animationDelay = (j * .37) + 's'; sparkles.push(g); });
+    }
+    if (C.steam) {
+      var stg = el('g', null, svg);
+      [252, 300, 348].forEach(function (x, j) { var sp = el('path', { d: 'M' + x + ' 60c-12-16 12-26 0-42s12-26 0-42', fill: 'none', stroke: 'rgba(255,255,255,.45)', 'stroke-width': 3, 'stroke-linecap': 'round', 'class': 'steam', opacity: 0 }, stg); sp.style.animationDelay = (j * .6) + 's'; steam.push(sp); });
+    }
+
+    var meters = chapters.map(function (ch) { var m = $('[data-meter]', ch); return m ? { b: $('b', m), phase: m.getAttribute('data-meter'), from: +m.getAttribute('data-from'), to: +m.getAttribute('data-to'), v: null } : null; });
+    var dirX = Math.cos(bis), dirY = Math.sin(bis), active = -1, lastBar = -1;
+
+    function render(t) {
+      var ballR = 70, ballOp = 1, discR = R, discOp = 1, lift = 0, fy = 1;
+      if (T.stretch) {
+        var rise = ease(seg(t, T.ball)), st = ease(seg(t, T.stretch));
+        ballR = lerp(58, 82, rise) + st * 36; ballOp = 1 - segAB(t, T.stretch[0], lerp(T.stretch[0], T.stretch[1], .5));
+        discR = lerp(96, R, st); discOp = segAB(t, T.stretch[0], T.stretch[0] + .12);
+      } else if (T.toss) {
+        var q = seg(t, T.toss);
+        ballR = lerp(64, 80, ease(seg(t, T.ball))); ballOp = 1 - segAB(t, T.toss[0], T.toss[0] + .1);
+        discR = lerp(92, R, easeOut(q)); discOp = segAB(t, T.toss[0], T.toss[0] + .08);
+        if (q > 0 && q < 1) { lift = Math.sin(Math.PI * q) * 64; fy = Math.max(.14, Math.abs(Math.cos(q * Math.PI * 3))); }
+      }
+      A(ball, 'r', f(ballR)); op(ball, ballOp); A(disc, 'r', f(discR)); op(disc, discOp);
+      if (ring) { A(ring, 'stroke-dashoffset', f(RC * (1 - seg(t, T.ring)))); op(ringG, Math.min(segAB(t, -.25, .05), 1 - segAB(t, T.ring[1] + .05, T.ring[1] + .35))); }
+      op(dust, T.dust ? .9 * (1 - segAB(t, T.dust[1] - .45, T.dust[1])) : 0);
+      A(sauceClip, 'r', f(lerp(0, R * .9, easeOut(seg(t, T.sauce)))));
+      var bk = ease(seg(t, T.bake));
+      op(sauceBake, bk * .22); op(toast, bk * .9);
+      spots.forEach(function (s) { op(s.e, clamp((bk - s.th * .7) / .3) * .8); });
+      if (shreds.length) {
+        var c0 = T.cheese[0], c1 = T.cheese[1] - .12, meltP = ease(segAB(t, T.bake[0], lerp(T.bake[0], T.bake[1], .6)));
+        shreds.forEach(function (s) { var st0 = lerp(c0, c1, s.th); op(s.e, segAB(t, st0, st0 + .12) * (1 - meltP * .85)); });
+        op(melt, meltP * segAB(t, c0, c0 + .3));
+        meltSpots.forEach(function (s) { op(s.e, clamp((bk - .35 - s.th * .5) / .25) * .6); });
+      }
+      cheese.forEach(function (c, j) {
+        var k = segAB(t, T.cheese[0] + j * .045, T.cheese[0] + j * .045 + .22), s = k > 0 ? backOut(k) : 0;
+        A(c.g, 'transform', 'translate(' + f(c.x) + ' ' + f(c.y) + ') scale(' + f(Math.max(.001, s * (1 + .14 * bk))) + ')'); op(c.g, k * 3); op(c.bl, bk * .9);
+      });
+      basil.forEach(function (b, j) {
+        var k = segAB(t, T.basil[0] + j * .06, T.basil[0] + j * .06 + .26), e = easeOut(k);
+        A(b.g, 'transform', 'translate(' + f(b.x) + ' ' + f(b.y - (1 - e) * 50) + ') rotate(' + f(b.a + (1 - e) * 40) + ') scale(' + f(lerp(1.3, 1, e) * (1 - .08 * bk)) + ')'); op(b.g, k * 2.5);
+      });
+      peps.forEach(function (p, j) {
+        var k = segAB(t, T.toppings[0] + j * .032, T.toppings[0] + j * .032 + .2), e = easeOut(k);
+        A(p.g, 'transform', 'translate(' + f(p.x) + ' ' + f(p.y - (1 - e) * 26) + ') scale(' + f(lerp(1.45, 1, e) * (1 - .06 * bk)) + ')'); op(p.g, k * 2.5); op(p.edge, bk * .85); op(p.shine, bk * .35);
+      });
+      golds.forEach(function (g, j) {
+        var k = segAB(t, T.gold[0] + j * .025, T.gold[0] + j * .025 + .24), e = easeOut(k);
+        A(g.g, 'transform', 'translate(' + f(g.x) + ' ' + f(g.y - (1 - e) * 110) + ') rotate(' + f(g.r0 + (1 - e) * 120) + ')'); op(g.g, k * 3);
+      });
+      var cp = seg(t, T.cut);
+      cuts.forEach(function (ln, j) { var k = clamp(cp * 1.6 - j * .08); A(ln, 'stroke-dashoffset', f(CL * (1 - k))); op(ln, k > 0 ? 1 : 0); });
+      var lp = seg(t, T.lift), on = lp > 0, dist = ease(lp) * (C.liftDist || 40);
+      op(mkWedge, on ? 1 : 0); op(slice, on ? 1 : 0);
+      A(slice, 'transform', 'translate(' + f(dirX * dist) + ' ' + f(dirY * dist) + ')');
+      op(sliceShadow, on ? .4 * ease(lp) : 0);
+      A(sliceShadow, 'transform', 'translate(' + f(dirX * dist * .55 + 5 * ease(lp)) + ' ' + f(dirY * dist * .55 + 16 * ease(lp)) + ')');
+      strings.forEach(function (s, j) {
+        var ea = j < 2 ? a1 : a2, sr = j % 2 ? 150 : 88, px = cx + sr * Math.cos(ea), py = cy + sr * Math.sin(ea), qx = px + dirX * dist, qy = py + dirY * dist;
+        A(s, 'd', 'M' + f(px) + ' ' + f(py) + 'Q' + f((px + qx) / 2 + 4) + ' ' + f((py + qy) / 2 + 9) + ' ' + f(qx) + ' ' + f(qy));
+        A(s, 'stroke-width', f(lerp(7, 1.2, lp))); op(s, on ? 1 - segAB(lp, .78, 1) : 0);
+      });
+      op(glow, .28 + .55 * bump(t, T.bake ? [T.bake[0] - .2, T.bake[1] + .5] : null, .3) + (C.gold ? .25 * seg(t, T.gold) : 0));
+      if (flameG) op(flameG, bump(t, T.flames, .2));
+      if (heat) op(heat, bump(t, T.heat, .2));
+      sparkles.forEach(function (g, j) { op(g, segAB(t, T.gold[1] - .05 + j * .04, T.gold[1] + .15 + j * .04)); });
+      steam.forEach(function (p) { op(p, segAB(t, T.lift[0] - .1, T.lift[1]) * .9); });
+      A(spin, 'transform', 'translate(0 ' + f(-lift) + ') rotate(' + f(t * (C.rotate === undefined ? 5 : C.rotate)) + ' ' + cx + ' ' + cy + ') translate(' + cx + ' ' + cy + ') scale(1 ' + f(fy) + ') translate(' + (-cx) + ' ' + (-cy) + ')');
+
+      var idx = Math.min(N - 1, Math.max(0, Math.floor(t)));
+      if (idx !== active) {
+        active = idx;
+        chapters.forEach(function (ch, j) { ch.classList.toggle('is-active', j === idx); });
+        rail.forEach(function (li, j) { li.classList.toggle('is-active', j === idx); });
+      }
+      var bv = f(t / N); if (bar && bv !== lastBar) { lastBar = bv; bar.style.transform = 'scaleX(' + bv + ')'; }
+      meters.forEach(function (m) { if (!m) return; var v = Math.round(lerp(m.from, m.to, seg(t, T[m.phase]))); if (v !== m.v) { m.v = v; m.b.textContent = v; } });
+    }
+    var ticking = false, VH = window.innerHeight || root.clientHeight, lastW = window.innerWidth;
+    function setVH() { VH = window.innerHeight || root.clientHeight; root.style.setProperty('--vpx', VH + 'px'); }
+    function update() {
+      ticking = false;
+      var r = sec.getBoundingClientRect(), total = r.height - VH;
+      render((total > 0 ? clamp(-r.top / total) : 0) * N);
+    }
+    function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(update); } }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', function () {
+      var w = window.innerWidth, h = window.innerHeight || root.clientHeight;
+      if (w !== lastW || Math.abs(h - VH) > VH * 0.25) { lastW = w; setVH(); }
+      onScroll();
+    });
+    window.addEventListener('orientationchange', function () { setTimeout(function () { setVH(); onScroll(); }, 300); });
+    setVH();
+    update();
+  }
+
+  /* ---------- menu tabs + search ---------- */
+  function norm(s) { return String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[’']/g, "'"); }
+  function menu() {
+    var m = $('[data-menu]'); if (!m) return;
+    var tabs = $$('[role="tab"]', m), panels = $$('[role="tabpanel"]', m), input = $('[data-menu-search]', m), empty = $('[data-menu-empty]', m);
+    var dishes = $$('.dish', m);
+    dishes.forEach(function (li) { var g = li.closest('.menu__group'), p = li.closest('.menu__panel'); li._s = norm(li.textContent + ' ' + (g ? g.querySelector('.menu__group-title').textContent : '') + ' ' + (p && p.querySelector('.menu__panel-title') ? p.querySelector('.menu__panel-title').textContent : '')); });
+    var current = tabs[0];
+    function select(tab, focus) {
+      current = tab;
+      tabs.forEach(function (t) { var on = t === tab; t.setAttribute('aria-selected', on ? 'true' : 'false'); t.tabIndex = on ? 0 : -1; });
+      panels.forEach(function (p) { p.hidden = p.id !== tab.getAttribute('aria-controls'); });
+      if (focus) tab.focus();
+      var list = tab.parentElement, left = tab.offsetLeft - (list.clientWidth - tab.offsetWidth) / 2;
+      if (list.scrollTo) list.scrollTo({ left: left, behavior: reduce ? 'auto' : 'smooth' });
+    }
+    if (tabs.length) {
+      m.classList.add('has-tabs');
+      tabs.forEach(function (t, i) {
+        t.addEventListener('click', function () { select(t, false); });
+        t.addEventListener('keydown', function (e) {
+          var k = e.key, j = null;
+          if (k === 'ArrowRight') j = (i + 1) % tabs.length; else if (k === 'ArrowLeft') j = (i - 1 + tabs.length) % tabs.length; else if (k === 'Home') j = 0; else if (k === 'End') j = tabs.length - 1;
+          if (j !== null) { e.preventDefault(); select(tabs[j], true); }
+        });
+      });
+      select(tabs[0], false);
+    }
+    if (!input) return;
+    input.addEventListener('input', function () {
+      var q = norm(input.value.trim());
+      if (!q) {
+        m.classList.remove('is-searching'); dishes.forEach(function (li) { li.classList.remove('is-hidden'); });
+        $$('.menu__group, .menu__panel', m).forEach(function (x) { x.classList.remove('is-hidden'); });
+        if (empty) empty.hidden = true; if (tabs.length) select(current, false); return;
+      }
+      m.classList.add('is-searching');
+      var any = 0;
+      dishes.forEach(function (li) { var hit = li._s.indexOf(q) > -1; li.classList.toggle('is-hidden', !hit); if (hit) any++; });
+      $$('.menu__group', m).forEach(function (g) { g.classList.toggle('is-hidden', !$('.dish:not(.is-hidden)', g)); });
+      panels.forEach(function (p) { p.hidden = false; p.classList.toggle('is-hidden', !$('.dish:not(.is-hidden)', p)); });
+      if (empty) { empty.hidden = any > 0; if (!any) empty.textContent = 'Nothing on the menu matches “' + input.value.trim() + '”. Try a dish or ingredient, like “parm” or “ravioli”.'; }
+    });
+  }
+
+  /* ---------- reservation form ---------- */
+  function fieldError(input, msg) {
+    var err = d.getElementById(input.id + '-err');
+    if (err) err.textContent = msg || '';
+    if (msg) input.setAttribute('aria-invalid', 'true'); else input.removeAttribute('aria-invalid');
+    return !msg;
+  }
+  function reserve() {
+    var form = $('[data-reserve]'); if (!form) return;
+    var done = $('[data-reserve-done]'), sum = $('[data-reserve-summary]'), again = $('[data-reserve-again]');
+    var name = form.elements.name, email = form.elements.email, date = form.elements.date, time = form.elements.time, guests = form.elements.guests;
+    var closed = (S.booking && S.booking.closedDays) || [];
+    var now = new Date(), iso = function (dt) { return new Date(dt.getTime() - dt.getTimezoneOffset() * 60000).toISOString().slice(0, 10); };
+    date.min = iso(now); date.max = iso(new Date(now.getTime() + 90 * 864e5));
+    function checkDate() {
+      if (!date.value) return fieldError(date, 'Choose a date.');
+      if (date.value < date.min) return fieldError(date, 'Choose today or a later date.');
+      if (date.value > date.max) return fieldError(date, 'We take bookings up to 90 days ahead. Choose an earlier date.');
+      var day = new Date(date.value + 'T12:00:00').getDay();
+      if (closed.indexOf(day) > -1) return fieldError(date, S.booking.closedMsg);
+      return fieldError(date, '');
+    }
+    date.addEventListener('change', checkDate);
+    name.addEventListener('input', function () { if (name.value.trim()) fieldError(name, ''); });
+    email.addEventListener('input', function () { if (EMAIL.test(email.value.trim())) fieldError(email, ''); });
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var ok = [
+        fieldError(name, name.value.trim() ? '' : 'Enter your name.'),
+        fieldError(email, EMAIL.test(email.value.trim()) ? '' : 'Enter an email address like name@example.com.'),
+        checkDate()
+      ];
+      if (ok.indexOf(false) > -1) { var bad = form.querySelector('[aria-invalid="true"]'); if (bad) bad.focus(); return; }
+      var dt = new Date(date.value + 'T12:00:00').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
+      sum.textContent = 'Thanks, ' + name.value.trim().split(/\s+/)[0] + '. We have your request for ' + guests.value + ' guests on ' + dt + ' at ' + time.value + '. We’ll confirm by email at ' + email.value.trim() + '.';
+      form.hidden = true; done.hidden = false; done.focus();
+    });
+    again.addEventListener('click', function () { form.reset(); date.min = iso(new Date()); form.hidden = false; done.hidden = true; name.focus(); });
+  }
+
+  /* ---------- newsletter ---------- */
+  function signup() {
+    $$('[data-signup]').forEach(function (form) {
+      var input = form.querySelector('input'), msg = form.parentElement.querySelector('[data-signup-msg]');
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var ok = EMAIL.test(input.value.trim());
+        msg.classList.toggle('is-error', !ok);
+        msg.textContent = ok ? 'You’re signed up. The next letter goes out at the start of the month.' : 'Enter an email address like name@example.com.';
+        if (ok) input.value = ''; else input.focus();
+      });
+    });
+  }
+
+  /* ---------- catering builder ---------- */
+  function catering() {
+    var box = $('[data-cater]'); if (!box) return;
+    var items = $$('[data-item]', box), lines = $('[data-lines]', box), empty = $('[data-empty]', box), total = $('[data-total]', box), clear = $('[data-clear]', box), state = [];
+    function money(n) { return '$' + n.toFixed(2); }
+    function render() {
+      var sum = 0; lines.innerHTML = '';
+      state.forEach(function (s) {
+        if (!s.qty) return; sum += s.qty * s.price;
+        var li = d.createElement('li'), label = d.createElement('span'), amt = d.createElement('span');
+        label.textContent = s.qty + ' × ' + s.name + (s.sauce ? ' (' + s.sauce + ')' : ''); amt.textContent = money(s.qty * s.price);
+        li.appendChild(label); li.appendChild(amt); lines.appendChild(li);
+      });
+      empty.hidden = sum > 0; total.textContent = money(sum); clear.disabled = sum === 0;
+    }
+    items.forEach(function (li) {
+      var s = { name: li.getAttribute('data-name'), price: parseFloat(li.getAttribute('data-price')), qty: 0, sauce: null, set: null };
+      var out = $('output', li), dec = $('[data-dec]', li), inc = $('[data-inc]', li), sauce = $('[data-sauce]', li);
+      if (sauce) { var checked = $('input:checked', sauce); s.sauce = checked ? checked.value : null; sauce.addEventListener('change', function (e) { s.sauce = e.target.value; render(); }); }
+      s.set = function (q) { s.qty = Math.max(0, Math.min(30, q)); out.textContent = s.qty; dec.disabled = s.qty === 0; li.classList.toggle('is-on', s.qty > 0); if (sauce) sauce.hidden = s.qty === 0; render(); };
+      dec.addEventListener('click', function () { s.set(s.qty - 1); });
+      inc.addEventListener('click', function () { s.set(s.qty + 1); });
+      state.push(s); s.set(0);
+    });
+    clear.addEventListener('click', function () { state.forEach(function (s) { s.set(0); }); });
+  }
+
+  /* ---------- seat plans ---------- */
+  function plans() {
+    $$('[data-plan]').forEach(function (box) {
+      var room = box.getAttribute('data-plan') === 'room';
+      var svg = el('svg', { viewBox: '0 0 320 212', 'class': 'plan', role: 'img', 'aria-label': room ? 'Floor plan with all 26 seats highlighted' : 'Floor plan with the 8 counter seats highlighted' });
+      el('rect', { x: 2, y: 2, width: 316, height: 208, rx: 6, 'class': 'plan__wall' }, svg);
+      el('path', { d: 'M128 2v16a32 32 0 0 0 64 0V2', 'class': 'plan__oven' }, svg);
+      el('rect', { x: 68, y: 48, width: 184, height: 14, rx: 3, 'class': 'plan__table' }, svg);
+      for (var i = 0; i < 8; i++) el('circle', { cx: f(80 + i * 22.9), cy: 76, r: 6, 'class': 'plan__seat is-on' }, svg);
+      for (var r = 0; r < 3; r++) for (var c = 0; c < 3; c++) {
+        var x = 60 + c * 88, y = 112 + r * 34;
+        el('rect', { x: x, y: y - 7, width: 24, height: 14, rx: 2, 'class': 'plan__table' }, svg);
+        el('circle', { cx: x - 11, cy: y, r: 6, 'class': 'plan__seat' + (room ? ' is-on' : '') }, svg);
+        el('circle', { cx: x + 35, cy: y, r: 6, 'class': 'plan__seat' + (room ? ' is-on' : '') }, svg);
+      }
+      box.appendChild(svg);
+    });
+  }
+
+  function start() { nav(); hours(); setInterval(hours, 60000); oven(); story(); menu(); reserve(); signup(); catering(); plans(); }
+  if (d.readyState === 'loading') d.addEventListener('DOMContentLoaded', start); else start();
+})();
+
+</script>
+</body>
+</html>
